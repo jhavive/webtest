@@ -1,0 +1,124 @@
+.Livai {
+  width: 59.7px;
+  height: 21.8px;
+  margin-left: 25%;
+  background-color: #3f8ebf;
+  background-color: var(--blue);
+}
+.navbar{
+  background: transparent;
+}
+.menu{
+  margin-right: 174px !important;
+}
+.getStarted {
+  width: 108px;
+  height: 38px;
+  margin-top: 10px;
+  opacity: 0.3;
+  border-radius: 21px;
+  background-color: #d8d8d8;
+  /*background-color: var(--grey4);*/
+}
+
+
+.Rectangle-46 {
+  margin-top: 3%;
+  width: 100%;
+  height: 427px;
+  background-image: linear-gradient(to bottom, #2bc0e4, #eaecc6);
+}
+.info1{
+  margin-right: auto !important;
+  margin-left: auto !important;
+  text-align: center !important;
+  padding-top: 106px;
+}
+.Imagine-a-world-wher {
+  width: 574px;
+  height: 133px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.Now-stop-imagining {
+  width: 353px;
+  height: 19px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  text-align: center;
+  color: #234663;margin-right: auto !important;
+  margin-left: auto !important;
+}
+.Were-strategists-d {
+  width: 715.8px;
+  height: 88px;
+  font-family: FiraSans-Light;
+  font-size: 36px;
+  text-align: center;
+  color: #3f8ebf;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.info2{
+  margin-right: auto !important;
+  margin-left: auto !important;
+  text-align: center !important;
+  padding-top: 106px;
+}
+.founders{
+  width:75%!important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.Rectangle-36 {
+  width: 275px;
+  height: 408px;
+  background-color: #f6f6f6;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.Rectangle-8 {
+  margin-top: 134px;
+  width: 171px;
+  height: 44px;
+  background: transparent;
+  border-radius: 21px;
+  border: solid 1px #3f8ebf;
+}
+
+
+
+.section6 {
+  background:#fff;
+  text-align: center;
+}
+.waveImage1{
+  background-color: #3f8ebf;
+  background-color: var(--blue);
+}
+.016-Livai {
+  width: auto;
+  height: 21px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #727272;
+  color: var(--grey3);
+}
+.info6{
+}
+.Careers-Company {
+  width: auto;
+  height: 29px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #bcbcbc;
+  color: var(--grey5);
+}

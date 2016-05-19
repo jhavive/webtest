@@ -1,0 +1,230 @@
+.header_bg {
+  width: 100.5%;
+  height: 105%;
+  background:linear-gradient(to bottom, #18306d, #5ed7fe);
+}
+.Livai {
+  width: 59.7px;
+  height: 21.8px;
+  object-fit: contain;
+  margin-left: 166px;
+  background-color: #d2dfdd;
+  background-color: var(--blue-grey);
+}
+.Name-of-App-API {
+  width: 243px;
+  height: 19px;
+  opacity: 0.8;
+  font-family: FiraSans-Book;
+  font-size: 16px;
+  color: #ffffff;
+  color: var(--white);
+}
+.Rectangle-2 {
+  width: 108px;
+  height: 38px;
+  opacity: 0.3;
+  border-radius: 21px;
+  background-color: #d8d8d8;
+  background-color: var(--grey4);
+}
+.Supercharge-your-eff {
+  height: 44px;
+  font-family: FiraSans-Light;
+  font-size: 36px;
+  text-align: center;
+  margin-top: -150px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #d2dfdd;/*
+  color: var(--blue-grey);*/
+}
+.navbar{
+  background: transparent;
+}
+.menu{
+  margin-right: 174px !important;
+}
+.getStarted {
+  width: 108px;
+  height: 38px;
+  margin-top: 10px;
+  opacity: 0.3;
+  border-radius: 21px;
+  background-color: #d8d8d8;
+  /*background-color: var(--grey4);*/
+}
+.Beta {
+  width: 29px;
+  height: 17px;
+  vertical-align: top; 
+  position: relative; 
+  top: 0.15em;
+  font-family: FiraSans-Regular;
+  font-size: 18px;
+  text-align: center;
+  color: #f6f6f6;
+  color: var(--grey2);
+}
+.The-smartest-persona {
+  width: auto;
+  height: 19px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  position: relative; 
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  /*color: var(--white);*/
+}
+.Available-in-English {
+  width: 419px;
+  height: 19px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  position: relative; 
+  margin-top:-10px;
+  margin-left: auto;
+  margin-right: auto;
+  /*color: var(--white);*/
+}
+.email{
+  margin-top: 8%;
+}
+.Rectangle-3 {
+  width: 301px;
+  height: 49px;
+  z-index: 99px;
+  border: 0;
+  background-color: #f6f6f6;
+  position: absolute; 
+  margin-left: 37%;
+  text-align: left;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 2em;
+  /*background-color: var(--grey2);*/
+}
+.Rectangle-3-Copy {
+  width: 100px;
+  height: 49px;
+  z-index: -1px;
+  background-color: #234663;
+  border: 0; 
+  text-align: center;
+  position: absolute;
+  margin-left: 55%;
+  border-top-right-radius: 2em;
+  border-bottom-right-radius: 2em;
+  color: #f6f6f6;
+  /*background-color: var(--navy);*/
+}
+/*.waves{*/
+  /*height: 100px;
+  isplay: table;
+  width: 100%;
+  list-style: outside none none;*/
+ /* content: " ";
+  display: table;
+  box-sizing: border-box;
+  clear: both;
+  content: " ";
+  display: table;
+  box-sizing: border-box;
+  margin: 0;
+  margin: 7.5px -15px;
+  list-style: outside none none;
+  margin-bottom: 0;
+  padding-left: 0;
+  margin-right: 174px !important;
+  margin-bottom: 10px;
+  margin-top: 0;
+  box-sizing: border-box;
+}*/
+/*.wave{
+   background: #E20074;
+    bottom: 1px;
+    height: 3px;
+    position: absolute;
+    width: 3px;      
+    animation: sound 0ms -800ms linear infinite alternate;
+}
+@keyframes sound {
+    0% {
+       opacity: .35;
+        height: 3px; 
+    }
+    100% {
+        opacity: 1;       
+        height: 28px;        
+    }
+}*/
+ul#waves {
+    padding: 0;
+}
+
+ul#waves li {
+    display: inline;
+}
+
+
+/*==========Second Section==============*/
+.section1 {
+  width: 100.5%;
+  height: 105%;
+  background:#ffffff;
+}
+.info1{
+  left: 17%;
+  top: 10px;
+  position: absolute;
+}
+.Transcribe-your-conv {
+  width: 290px;
+  height: 31px;
+  font-family: FiraSans-Medium;
+  font-size: 21px;
+  color: #3f8ebf;
+  color: var(--blue);
+}
+.Liv-will-transcribe {
+  width: 360px;
+  height: 105px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #727272;
+  color: var(--grey3);
+}
+.Rectangle-4 {
+  width: 395px;
+  height: 184px;
+  background-color: #d8d8d8;
+  /*background-color: var(--grey4);*/
+}
+
+.info2{
+  right: 20%;
+  top: 10px;
+  position: absolute;
+}
+.Summarise-your-calls {
+  width: 205px;
+  height: 31px;
+  font-family: FiraSans-Medium;
+  font-size: 21px;
+  color: #3f8ebf;
+  color: var(--blue);
+}
+.Liv-summarises-your {
+  width: 297px;
+  height: 84px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #727272;
+  color: var(--grey3);
+}
