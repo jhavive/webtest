@@ -1,7 +1,8 @@
 .header_bg {
   width: 100.5%;
-  height: 100%;
+  height: auto;
   background:linear-gradient(to bottom, #18306d, #5ed7fe);
+  padding-bottom: 10%;
 }
 .info1{
   vertical-align: middle;
@@ -50,6 +51,7 @@
   margin-right: 174px !important;
 }
 .getStarted {
+  margin-top: 10%;
   width: 108px;
   height: 38px;
   opacity: 0.3;
@@ -97,29 +99,32 @@
 }
 .email{
   margin-top: 8%;
+  position: relative;
+  width:40%;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  margin-bottom: 10%! important;
 }
 .Rectangle-3 {
-  width: 301px;
+  width:100%;
   height: 49px;
   z-index: 99px;
   border: 0;
   background-color: #f6f6f6;
-  position: absolute; 
-  margin-left: 37%;
+  margin-left: 10%;
   text-align: left;
   border-top-left-radius: 25px;
   border-bottom-left-radius: 2em;
   /*background-color: var(--grey2);*/
 }
 .Rectangle-3-Copy {
-  width: 100px;
+  width: 100%;
   height: 49px;
   z-index: -1px;
   background-color: #234663;
   border: 0; 
   text-align: center;
-  position: absolute;
-  margin-left: 55%;
+  margin-left:-10%;
   border-top-right-radius: 2em;
   border-bottom-right-radius: 2em;
   color: #f6f6f6;
@@ -175,17 +180,32 @@ ul#waves li {
 
 
 /*==========Second Section==============*/
-.section1 {
-  width: 60%;
-  height: 100%;
+.section2 {
+  width: 70%;
   padding:20px;
   background:#ffffff;
   margin-right: auto !important;
   margin-left: auto !important;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.What-can-Liv-do-for {
+  text-align: center;
+
+  margin-right: auto !important;
+  margin-left: auto !important;
+  margin-bottom: 119px;
+  width:100%;
+  height: 44px;
+  font-family: FiraSans-Light;
+  font-size: 36px;
+  text-align: center;
+  color: #3f8ebf;
 }
 .section1-image1{
   height: 120px;
   width: 250px;
+  margin-bottom: 19vh;
 }
 .section1-image2{
   width: 90px;
@@ -194,17 +214,18 @@ ul#waves li {
 
 .infoTable{
   padding: 40px;
+  margin-bottom: 10%;
 }
 .Transcribe-your-conv {
   width: 290px;
-  height: 31px;
   font-family: FiraSans-Medium;
   font-size: 18px;
   color: #3f8ebf;
 }
 .Liv-will-transcribe {
-  width: 360px;
+  width:100%;
   height: 105px;
+  margin-bottom: 15vh;
   font-family: FiraSans-Regular;
   font-size: 16px;
   line-height: 1.3;
@@ -219,11 +240,11 @@ ul#waves li {
 }
 .Livs-unique-audio-s {
   height: 84px;
+  width:100%;
   font-family: FiraSans-Regular;
   font-size: 16px;
   line-height: 1.3;
   color: #727272;
-  color: var(--grey3);
 }
 .Search-your-audio {
   width: 174px;
@@ -231,7 +252,6 @@ ul#waves li {
   font-family: FiraSans-Medium;
   font-size: 21px;
   color: #3f8ebf;
-  color: var(--blue);
 }
 .Summarise-your-calls {
   width: 205px;
@@ -239,54 +259,163 @@ ul#waves li {
   font-family: FiraSans-Medium;
   font-size: 21px;
   color: #3f8ebf;
-  color: var(--blue);
 }
 .Liv-summarises-your {
-  width: 297px;
+  width:100%;
   height: 84px;
   font-family: FiraSans-Regular;
   font-size: 16px;
   line-height: 1.3;
   color: #727272;
-  color: var(--grey3);
+}
+.Set-reminders-and-al {
+  width: 253px;
+  height: 31px;
+  font-family: FiraSans-Medium;
+  font-size: 21px;
+  color: #3f8ebf;
+}
+.Liv-reminds-you-abou {
+  width:100%;
+  height: 84px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #727272;
+}
+.Extract-important-in {
+  width: 288px;
+  height: 31px;
+  font-family: FiraSans-Medium;
+  font-size: 21px;
+  color: #3f8ebf;
+}
+.Liv-easily-recognise {
+  width:100%;
+  height: 84px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #727272;
+}
+
+/*=========Third Section=============*/
+.section3 {
+  width: 100%;
+  height: 709px;
+  background-image: linear-gradient(to bottom, #fdf1fa, #6c96bc);
+  position:relative;
+}
+.info2{
+  width: 70%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.Members-only-Android {
+  width: 100%;  font-family: FiraSans-Light;
+  font-size: 36px;
+  text-align: left;
+  color: #3f8ebf;
+  margin-top:45%;
+}
+.phone-image{
+  padding: 10%;
+  margin-top: 20%;
+  height: 100%;
+}
+.Rectangle-8 {
+  width: 240px;
+  height: 44px;
+  border-radius: 21px;
+  background-color: #3f8ebf;
+  color: #fff;
+  /*background-color: var(--blue);*/
+  margin-top:1%;
+  border: solid 1px #3f8ebf;
+  border: solid 1px var(--blue);
+  margin-right: auto!important;
+  margin-left: auto!important;
+
+}
+.Rectangle-8-copy{
+  width: 240px;
+  height: 44px;
+  border-radius: 21px;
+  background: transparent;
+  color: #3f8ebf;
+  /*background-color: var(--blue);*/
+  margin-top:5%;
+  border: solid 1px #3f8ebf;
+  margin-right: auto!important;
+  margin-left: auto!important;
 }
 
 
-.section6 {
-  width: 100.5%;
-  height: 100%;
+
+
+
+
+
+
+.section4 {
+  margin-top: 10%;
   background:#fff;
-  bottom: 0px;
-  position: absolute;
   text-align: center;
+}
+.Explore-the-APIs-an {
+  height: 44px;
+  font-family: FiraSans-Light;
+  font-size: 36px;
+  text-align: center;
+  color: #3f8ebf;
 }
 .waveImage1{
   background-color: #3f8ebf;
   background-color: var(--blue);
-  position:absolute;
-  left:0;
-  bottom: 0px;
 }
-.016-Livai {
+.copyright{
+  margin-top: 5%;
   width: auto;
   height: 21px;
   font-family: FiraSans-Regular;
   font-size: 16px;
   line-height: 1.3;
   color: #727272;
-  color: var(--grey3);
 }
 .info6{
-  position: absolute;
-  top:25%;
-  left:30%;
+  width:60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.Livai1{
+  height: 56.8px;
+  object-fit: contain;
+  align: right;
+  padding:10%;
+  background-color: #d2dfdd;
+  background-color: var(--blue-grey);
+}
+.address{
+  margin-top: 10%;
+}
+.Old-Airport-Road-Ba {
+  height: 19px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  color: #9ea8ac;
+}
+.hellolivai {
+  height: 19px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  color: #9ea8ac;
 }
 .Careers-Company {
+  margin-top: 5%;
   width: auto;
   height: 29px;
   font-family: FiraSans-Regular;
   font-size: 16px;
   line-height: 1.8;
   color: #bcbcbc;
-  color: var(--grey5);
 }
