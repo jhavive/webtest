@@ -1,10 +1,52 @@
+@font-face {
+  font-family: 'Fira Sans Regular';
+  src: url('../../fonts/FiraSans-Regular.eot');
+  src: url('../../fonts/FiraSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/FiraSans-Regular.woff') format('woff'),
+    url('../../fonts/FiraSans-Regular.ttf') format('truetype'),
+    url('../../fonts/FiraSans-Regular.svg#FiraSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans Book';
+  src: url('../../fonts/FiraSans-Book.eot');
+  src: url('../../fonts/FiraSans-Book.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/FiraSans-Book.woff') format('woff'),
+    url('../../fonts/FiraSans-Book.ttf') format('truetype'),
+    url('../../fonts/FiraSans-Book.svg#FiraSans-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans Light';
+  src: url('../../fonts/FiraSans-Light.eot');
+  src: url('../../fonts/FiraSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/FiraSans-Light.woff') format('woff'),
+    url('../../fonts/FiraSans-Light.ttf') format('truetype'),
+    url('../../fonts/FiraSans-Light.svg#FiraSans-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans Medium';
+  src: url('../../fonts/FiraSans-Medium.eot');
+  src: url('../../fonts/FiraSans-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/FiraSans-Medium.woff') format('woff'),
+    url('../../fonts/FiraSans-Medium.ttf') format('truetype'),
+    url('../../fonts/FiraSans-Medium.svg#FiraSans-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
 .Livai {
   width: 59.7px;
   height: 21.8px;
-  object-fit: contain;
-  margin-left: 166px;
-  background-color: #d2dfdd;
-  background-color: var(--blue-grey);
+  margin-left: 25%;
+  background-color: #3f8ebf;
+  background-color: var(--blue);
 }
 .navbar{
   background: transparent;
@@ -13,38 +55,28 @@
   margin-right: 174px !important;
 }
 .getStarted {
-  margin-top: 10%;
   width: 108px;
   height: 38px;
+  margin-top: 10px;
   opacity: 0.3;
   border-radius: 21px;
   background-color: #d8d8d8;
   /*background-color: var(--grey4);*/
 }
-
-
-
-
-
 .section1{
   width:100%;
-  height: 417px;
-  margin-bottom: 10px;
-  background-image: linear-gradient(to bottom, rgba(48, 5, 71, 0.7), rgba(94, 214, 254, 0));
+  height: 527px;
+  background-image: url(../../images/bg_image_v2.png);
+  background-repeat: no-repeat;
 }
 h1{
   text-align: center;
 }
-.info1{
-  width:100%;
-  text-align: center !important;
-  margin-right: auto!important;
-  margin-left: auto!important;
-}
+
 .Say-hello-to-LivAssi {
   width: 337px;
   height: 44px;
-  font-family: FiraSans-Light;
+  font-family: Fira Sans Light;
   font-size: 36px;
   color: #d2dfdd;
   margin-right: auto!important;
@@ -53,7 +85,7 @@ h1{
 .Reclaim-your-time-an {
   width: 511px;
   height: 38px;
-  font-family: FiraSans-Regular;
+  font-family: Fira Sans Regular;
   font-size: 16px;
   text-align: center;
   color: #ffffff;
@@ -91,10 +123,11 @@ h1{
   height: 100%;
 }
 .info1{
-  width:70%;
+  width:100%;
   text-align: center !important;
   margin-right: auto!important;
   margin-left: auto!important;
+  vertical-align: middle !important;
 }
 .table{
   width:60% !important;
@@ -105,7 +138,7 @@ h1{
 .One-app-for-all-your {
   width: 440px;
   height: 44px;
-  font-family: FiraSans-Light;
+  font-family: Fira Sans Light;
   font-size: 36px;
   text-align: left!important;
   color: #3f8ebf;
@@ -114,7 +147,7 @@ h1{
 }
 .Talk-in-English-or-H {
   height: 63px;
-  font-family: FiraSans-Regular;
+  font-family: Fira Sans Regular;
   font-size: 16px;
   line-height: 1.3;
   color: #727272;
@@ -123,13 +156,13 @@ h1{
 .Transcribes-in-Engli {
   height: 31px;
   text-align: left!important;
-  font-family: FiraSans-Medium;
+  font-family: Fira Sans Medium;
   font-size: 21px;
   color: #3f8ebf;
 }
 .It-presents-your-dat {
   height: 84px;
-  font-family: FiraSans-Regular;
+  font-family: Fira Sans Regular;
   font-size: 16px;
   line-height: 1.3;
   color: #727272;
@@ -150,7 +183,7 @@ h1{
 .How-it-works {
   width: 206px;
   height: 44px;
-  font-family: FiraSans-Light;
+  font-family: Fira Sans Light;
   font-size: 36px;
   text-align: center;
   color: #3f8ebf;
@@ -182,7 +215,7 @@ h1{
 .Register-now-to-try {
   width:auto;
   height: 44px;
-  font-family: FiraSans-Light;
+  font-family: Fira Sans Light;
   font-size: 30px;
   color: #3f8ebf;
   margin-left: auto !important;
@@ -199,7 +232,7 @@ h1{
 .Perfect-for-small-st {
   width: 261px;
   height: 38px;
-  font-family: FiraSans-Regular;
+  font-family: Fira Sans Regular;
   font-size: 16px;
   color: #9ea8ac;
   color: var(--grey1);
@@ -230,64 +263,94 @@ h1{
   border: solid 1px var(--blue);
 }
 
-
-
-
-
-
-
 .section6 {
-  margin-top: 10%;
+  width: 100.5%;
+  height: 100%;
   background:#fff;
+  bottom: 0px;
+  position: absolute;
   text-align: center;
 }
 .waveImage1{
   background-color: #3f8ebf;
   background-color: var(--blue);
+  position:absolute;
+  left:0;
+  bottom: 0px;
 }
-.copyright{
-  margin-top: 5%;
+.016-Livai {
   width: auto;
   height: 21px;
-  font-family: FiraSans-Regular;
+  font-family: Fira Sans Regular;
   font-size: 16px;
   line-height: 1.3;
   color: #727272;
+  color: var(--grey3);
 }
 .info6{
-  width:60%;
-  margin-right: auto;
-  margin-left: auto;
-}
-.Livai1{
-  height: 56.8px;
-  object-fit: contain;
-  align: right;
-  padding:10%;
-  background-color: #d2dfdd;
-  background-color: var(--blue-grey);
-}
-.address{
-  margin-top: 10%;
-}
-.Old-Airport-Road-Ba {
-  height: 19px;
-  font-family: FiraSans-Regular;
-  font-size: 16px;
-  color: #9ea8ac;
-}
-.hellolivai {
-  height: 19px;
-  font-family: FiraSans-Regular;
-  font-size: 16px;
-  color: #9ea8ac;
+  position: absolute;
+  top:25%;
+  left:30%;
 }
 .Careers-Company {
-  margin-top: 5%;
   width: auto;
   height: 29px;
-  font-family: FiraSans-Regular;
+  font-family: Fira Sans Regular;
   font-size: 16px;
   line-height: 1.8;
   color: #bcbcbc;
+  color: var(--grey5);
+}
+
+.name-of-app-a-p-i {
+  height: 19px;
+  opacity: 0.8 !important;
+  font-family: Fira Sans Book !important; 
+  font-size: 16px !important;
+  color: #ffffff !important;
+  bottom: 5px !important;
+  opacity: 0.8;
+}
+.rectangle-2 {
+  width: 108px;
+  height: 38px;
+  border-radius: 21px;
+  background-color: rgba(216,216,216,0.3) !important;
+  border: 0px;
+}
+.get-started {
+  width: 95px;
+  height: 19px;
+  font-family: Fira Sans Book !important;
+  font-size: 16px !important;
+  color: rgba(255,255,255,0.8)  !important;
+  margin: 0px !important;
+}
+
+.navbar_li{
+  float:right;
+}
+
+.navbar_container{
+  margin: 23px 161px 0px 166px !important;
+}
+
+.h1_container{
+  margin-top: 75px;
+}
+
+.section1_img{
+  background-image: linear-gradient(to bottom, rgba(48, 5, 71, 0.7), rgba(94, 214, 254, 0));
+}
+
+.section2_h1_container{
+  margin-top: 96px;
+}
+
+.navbar-header-new{
+  margin-left: -30px !important;
+}
+
+.navbar-brand-new{
+  padding: 9px 15px !important;
 }
