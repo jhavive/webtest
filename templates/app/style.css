@@ -1,9 +1,10 @@
 .Livai {
   width: 59.7px;
   height: 21.8px;
-  margin-left: 25%;
-  background-color: #3f8ebf;
-  background-color: var(--blue);
+  object-fit: contain;
+  margin-left: 166px;
+  background-color: #d2dfdd;
+  background-color: var(--blue-grey);
 }
 .navbar{
   background: transparent;
@@ -12,17 +13,23 @@
   margin-right: 174px !important;
 }
 .getStarted {
+  margin-top: 10%;
   width: 108px;
   height: 38px;
-  margin-top: 10px;
   opacity: 0.3;
   border-radius: 21px;
   background-color: #d8d8d8;
   /*background-color: var(--grey4);*/
 }
+
+
+
+
+
 .section1{
   width:100%;
-  height: 100%;
+  height: 417px;
+  margin-bottom: 10px;
   background-image: linear-gradient(to bottom, rgba(48, 5, 71, 0.7), rgba(94, 214, 254, 0));
 }
 h1{
@@ -30,7 +37,6 @@ h1{
 }
 .info1{
   width:100%;
-  horizontal-align:middle;
   text-align: center !important;
   margin-right: auto!important;
   margin-left: auto!important;
@@ -224,41 +230,64 @@ h1{
   border: solid 1px var(--blue);
 }
 
+
+
+
+
+
+
 .section6 {
-  width: 100.5%;
-  height: 100%;
+  margin-top: 10%;
   background:#fff;
-  bottom: 0px;
-  position: absolute;
   text-align: center;
 }
 .waveImage1{
   background-color: #3f8ebf;
   background-color: var(--blue);
-  position:absolute;
-  left:0;
-  bottom: 0px;
 }
-.016-Livai {
+.copyright{
+  margin-top: 5%;
   width: auto;
   height: 21px;
   font-family: FiraSans-Regular;
   font-size: 16px;
   line-height: 1.3;
   color: #727272;
-  color: var(--grey3);
 }
 .info6{
-  position: absolute;
-  top:25%;
-  left:30%;
+  width:60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.Livai1{
+  height: 56.8px;
+  object-fit: contain;
+  align: right;
+  padding:10%;
+  background-color: #d2dfdd;
+  background-color: var(--blue-grey);
+}
+.address{
+  margin-top: 10%;
+}
+.Old-Airport-Road-Ba {
+  height: 19px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  color: #9ea8ac;
+}
+.hellolivai {
+  height: 19px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  color: #9ea8ac;
 }
 .Careers-Company {
+  margin-top: 5%;
   width: auto;
   height: 29px;
   font-family: FiraSans-Regular;
   font-size: 16px;
   line-height: 1.8;
   color: #bcbcbc;
-  color: var(--grey5);
 }

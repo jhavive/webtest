@@ -1,9 +1,10 @@
 .Livai {
   width: 59.7px;
   height: 21.8px;
-  margin-left: 25%;
-  background-color: #3f8ebf;
-  background-color: var(--blue);
+  object-fit: contain;
+  margin-left: 166px;
+  background-color: #d2dfdd;
+  background-color: var(--blue-grey);
 }
 .navbar{
   background: transparent;
@@ -12,19 +13,33 @@
   margin-right: 174px !important;
 }
 .getStarted {
+  margin-top: 10%;
   width: 108px;
   height: 38px;
-  margin-top: 10px;
   opacity: 0.3;
   border-radius: 21px;
   background-color: #d8d8d8;
   /*background-color: var(--grey4);*/
+}
+
+
+.section1{
+  width:100%;
+  height: 417px;
+  margin-bottom: 10px;
+}
+.info1{
+  margin-top: 8%;
+  width:40%;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 .Do-more-with-our-API {
   width: auto;
   height: 44px;
   font-family: FiraSans-Light;
   font-size: 36px;
+  text-align: center;
   color: #3f8ebf;
   color: var(--blue);
 }
@@ -33,16 +48,19 @@
   height: 42px;
   font-family: FiraSans-Regular;
   font-size: 16px;
+  text-align: center;
   line-height: 1.3;
   color: #727272;
   color: var(--grey3);
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
-.info1{
-	margin-top: 20%;
-	margin-left: 35%;
+.buttons{
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 .Rectangle-3-Copy {
-   width: 171px;
+  width: 171px;
   height: 44px;
   border-radius: 21px;
   border: solid 1px #3f8ebf;
@@ -50,20 +68,24 @@
   /*border: solid 1px var(--blue);*/
   background-color: #fff;
 }
-.fp-tableCell{
-	vertical-align: top!important;
+
+
+
+.section-api{
+  width: 100.5%;
+  height: 105%;
+  background:#fff;
 }
 .app{
-	width: 1440px;
-  	height: 59%;
-  	object-fit: contain;
-  	position: relative;
-  	background-image: linear-gradient(to bottom, #514a9d, #24c6dc);
+  width: 100%;
+	height: 80%;
+	background-image: linear-gradient(to bottom, #514a9d, #24c6dc);
+  position: relative;
 }
 .waveImage{
-	position: absolute;
-    bottom: 0;
-    left: 0;
+  width: 100%;
+  position: absolute;
+  bottom:0px;
 }
 .Demo-this-ground-bre {
   width: 500px;
@@ -73,57 +95,49 @@
   color: #9ea8ac;
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
 }
 .wrapper{
 	text-align: center;
-
-	margin-left: 20%;
-	margin-right:auto; 
+  width: 70%;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 .submit{
-  margin-top: 100px;
-  margin-bottom: 0px;
   width: 70px;
   height: 70px;
   border-radius: 40px;
+  margin-top: 50%;
 }
 .notes{
-  margin-top: 20px;
+  margin-top: 40px;
 	display: block;
-	height: 45vh;
-  width:100vh;
+  width:100%;
   border-radius: 10px;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 .language{
   margin-top: 100px;
-	width: 171px !important;
   height: 44px;
   border:1px solid #fff;
   background-color: transparent !important;
   border-radius: 18px;
-  left:437px;
   color: #fff !important;
-  position:relative;
 }
 .language > option{
     color: black;
     background : none;
 }
-.section-api{
-  width: 100.5%;
-  height: 105%;
-  background:#fff;
-  top:6.5%;
-  bottom: 0px;
-  position: absolute;
-}
+
+
+
+
+
 .section2 {
   width: 100.5%;
-  height: auto;
+  height: 80%;
   background:#fff;
-  top:7.5%;
-  bottom: 0px;
-  position: absolute;
   text-align: center;
 }
 .How-can-our-pioneeri {
@@ -149,18 +163,53 @@
   text-align: center;
   color: #3f8ebf;
 }
+.myCarousel{
+  margin-top:5%; 
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.itemset{
+  width:60%;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.carousel-control.left, .carousel-control.right{ 
+background: none !important; 
+filter: progid:none !important; 
+}
+.Dont-just-listen-to {
+  width: 262px;
+  height: 168px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #727272;
+  color: var(--grey3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section3 {
   width: 100.5%;
-  height: auto;
+  height: 130%;
   background:#234663;
-  top:0%;
-  bottom: 0px;
-  position: absolute;
   text-align: center;
+  padding-top: 10%;
 }
 .info4{
   height:10%;
-  margin-top: 5%;
+  margin-bottom: 5%;
   margin-left: 25%;
   text-align: center;
 }
@@ -176,7 +225,6 @@
   height:40%;
   margin-right: 20%;
   margin-left: 15%;
-  margin-bottom: 10%;
 }
 .Rectangle-4 {
   /*width: 293.1px;*/
@@ -230,41 +278,65 @@
   border-bottom:1px solid #fff;
   /*background-color: var(--navy);*/
 }
+
+
+
+
+
+
+
 .section6 {
-  width: 100.5%;
-  height: 100%;
+  margin-top: 10%;
   background:#fff;
-  bottom: 0px;
-  position: absolute;
   text-align: center;
 }
 .waveImage1{
   background-color: #3f8ebf;
   background-color: var(--blue);
-  position:absolute;
-  left:0;
-  bottom: 0;
 }
-.016-Livai {
+.copyright{
+  margin-top: 5%;
   width: auto;
   height: 21px;
   font-family: FiraSans-Regular;
   font-size: 16px;
   line-height: 1.3;
   color: #727272;
-  color: var(--grey3);
 }
 .info6{
-  position: absolute;
-  top:25%;
-  left:30%;
+  width:60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.Livai1{
+  height: 56.8px;
+  object-fit: contain;
+  align: right;
+  padding:10%;
+  background-color: #d2dfdd;
+  background-color: var(--blue-grey);
+}
+.address{
+  margin-top: 10%;
+}
+.Old-Airport-Road-Ba {
+  height: 19px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  color: #9ea8ac;
+}
+.hellolivai {
+  height: 19px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  color: #9ea8ac;
 }
 .Careers-Company {
+  margin-top: 5%;
   width: auto;
   height: 29px;
   font-family: FiraSans-Regular;
   font-size: 16px;
   line-height: 1.8;
   color: #bcbcbc;
-  color: var(--grey5);
 }
