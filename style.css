@@ -128,7 +128,7 @@
 }
 .header_bg {
   width: 100.5%;
-  height: auto;
+  height: 621px;  
   background:linear-gradient(to bottom, #18306d, #5ed7fe);
   padding-bottom: 10%;
 }
@@ -163,6 +163,7 @@
   background-color: var(--grey4);
 }
 .Supercharge-your-eff {
+  margin-top: 103px;
   height: 44px;
   font-family: FiraSans-Light;
   font-size: 36px;
@@ -177,10 +178,9 @@
 
 }
 .menu{
-  margin-right: 174px !important;
+  margin-right: 161px !important;
 }
 .getStarted {
-  margin-top: 10% !important;
   width: 108px !important;
   height: 38px !important;
   border: 0 !important;
@@ -197,10 +197,15 @@
   position: relative; 
   top: 0.15em;
   font-family: FiraSans-Regular;
-  font-size: 18px;
+  font-size: 14px;
   text-align: center;
   color: #f6f6f6;
   color: var(--grey2);
+  border: solid 1px #f1bbbb;
+  border-radius: 4px;
+  padding: 1px 8px;
+  margin-left: 10px;
+
 }
 .The-smartest-persona {
   width: auto;
@@ -210,7 +215,7 @@
   text-align: center;
   color: #ffffff;
   position: relative; 
-  margin-top: 40px;
+  margin-top: 23px;
   margin-left: auto;
   margin-right: auto;
   /*color: var(--white);*/
@@ -223,7 +228,7 @@
   text-align: center;
   color: #ffffff;
   position: relative; 
-  margin-top:-10px;
+  margin-top:-14px;
   margin-left: auto;
   margin-right: auto;
   /*color: var(--white);*/
@@ -303,12 +308,18 @@
 }*/
 ul#waves {
     padding: 0;
+    position: absolute !important;
 }
 
 ul#waves li {
     display: inline;
+    
 }
 
+.waves
+{
+  position: absolute;
+}
 
 /*==========Second Section==============*/
 .section2 {
@@ -550,4 +561,67 @@ ul#waves li {
   font-size: 16px;
   line-height: 1.8;
   color: #bcbcbc;
+}
+
+.navbar-brand-new{
+  padding:15px 0px !important;
+}
+
+.container-fluid-new{
+  padding-right:7px !important;
+  margin-top:23px !important;
+}
+
+
+.name-of-app-a-p-i {
+  height: 19px;
+  opacity: 0.8 !important;
+  font-family: FiraSans-Book !important; 
+  font-size: 16px !important;
+  color: #ffffff !important;
+  bottom: 5px !important;
+  padding: 15px 25px !important;
+}
+.rectangle-2 {
+  width: 108px;
+  height: 38px;
+  border-radius: 21px;
+  background-color: rgba(216,216,216,0.3) !important;
+  border: 0px;
+}
+.get-started {
+  width: 95px;
+  height: 19px;
+  font-family: FiraSans-Book !important;
+  font-size: 16px !important;
+  color: rgba(255,255,255,0.8)  !important;
+  margin: 0px !important;
+}
+
+.navbar_li{
+  float:right;
+}
+
+.navbar_container{
+  margin: 23px 161px 0px 166px !important;
+}
+
+.h1_container{
+  margin-top: 75px;
+}
+
+.section1_img{
+  background-image: linear-gradient(to bottom, rgba(48, 5, 71, 0.7), rgba(94, 214, 254, 0));
+}
+
+.section2_h1_container{
+  margin-top: 96px;
+}
+
+.navbar-header-new{
+  margin-left: -30px !important;
+}
+
+.navbar-brand-new{
+  padding: 9px 0px !important;
 }
