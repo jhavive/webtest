@@ -76,13 +76,46 @@
   margin-left: auto !important;
 }
 .Rectangle-36 {
-  width: 275px;
-  height: 408px;
+  width: 230px;
+  height: 630px;
   background-color: #f6f6f6;
   margin-right: auto !important;
   margin-left: auto !important;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
 }
+.info-founders{
+  width: 185px;
+  text-align: left;
+  padding: 15px;
+}
+.Subodh-Kumar {
+  width: 108px;
+  height: 21px;
+  font-family: FiraSans-Medium;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #234663;
+}
+.Sanjeev-Kumar-PhD {
+  width: 146px;
+  height: 21px;
+  font-family: FiraSans-Medium;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #234663;
+}
+.Subodh-is-the-foundi {
+  width: 185px;;
+  height: 88px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #727272;
+  color: var(--grey3);
+}
+
+
 .Rectangle-8 {
   margin-top: 134px;
   width: 171px;
