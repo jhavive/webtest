@@ -1,7 +1,6 @@
-$(document).ready(function() {
-	$('#fullpage').fullpage();
-	var svg = document.getElementById("graph");
-		    
+
+var svg = document.getElementById("graph");
+    
     for(var idx=0;idx<115;idx++){
     	console.log("Graph");
     	var rect = document.createElementNS("http://www.w3.org/2000/svg",'rect');
@@ -14,4 +13,3 @@ $(document).ready(function() {
 	    rect.setAttribute('fill','#ecf4f9');
 	    svg.appendChild(rect);
     }
-});
