@@ -53,20 +53,85 @@
   background: transparent;
 }
 .menu{
-  margin-right: 174px !important;
+  margin-right: 161px !important;
 }
 .getStarted {
-  margin-top: 10px !important;
+  /*margin-top: 10% !important;*/
   width: 108px !important;
   height: 38px !important;
   /*background-color: var(--grey4);*/
   border-radius: 21px !important;
   border: solid 1px #3f8ebf !important;
   /*border: solid 1px var(--blue);*/
-  font-size: 12px !important;
+  /*font-size:12 !important;*/
   background-color: #fff !important;
   color: #3f8ebf !important;
 }
+
+.name-of-app-a-p-i {
+  height: 19px;
+  /*opacity: 0.8 !important;*/
+  font-family: FiraSans-Book !important; 
+  font-size: 16px !important;
+  color: #3f8ebf !important;
+  bottom: 5px !important;
+  padding: 15px 25px !important;
+}
+.rectangle-2 {
+  width: 108px;
+  height: 38px;
+  border-radius: 21px;
+  background-color: rgba(216,216,216,0) !important;
+  border: 0px;
+}
+.get-started {
+  width: 95px;
+  height: 19px;
+  font-family: FiraSans-Book !important;
+  font-size: 16px !important;
+  color: rgba(255,255,255,0.8)  !important;
+  margin: 0px !important;
+}
+
+.navbar_li{
+  float:right;
+}
+
+.navbar_container{
+  margin: 23px 161px 0px 166px !important;
+}
+
+.h1_container{
+  margin-top: 75px;
+}
+
+.section1_img{
+  background-image: linear-gradient(to bottom, rgba(48, 5, 71, 0.7), rgba(94, 214, 254, 0));
+}
+
+.section2_h1_container{
+  margin-top: 96px;
+}
+
+.navbar-header-new{
+  margin-left: -30px !important;
+}
+
+.navbar-brand-new{
+  padding: 9px 0px !important;
+}
+.container-fluid-new{
+  padding-right:0px !important;
+  margin-top:23px !important;
+}
+
+
+
+
+
+
+
+
 .modal-backdrop {
    background-color: #fff !important;
 }
@@ -161,7 +226,7 @@
 
 
 .header_bg {
-  width: 100.5%;
+  width: 100%;
   height: auto;
 }
 .Rectangle-46 {
@@ -178,11 +243,11 @@
 }
 .Imagine-a-world-wher {
   width: 574px;
-  height: 133px;
   font-family: FiraSans-Regular;
   font-size: 16px;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 30px;
   margin-right: auto !important;
   margin-left: auto !important;
 }
@@ -192,6 +257,7 @@
   font-family: FiraSans-Regular;
   font-size: 16px;
   text-align: center;
+  margin-top: 30px;
   color: #234663;margin-right: auto !important;
   margin-left: auto !important;
 }
