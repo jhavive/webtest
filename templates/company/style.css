@@ -77,6 +77,16 @@
   bottom: 5px !important;
   padding: 15px 25px !important;
 }
+.name-of-app-a-p-i:hover {
+  height: 19px;
+  /*opacity: 0.8 !important;*/
+  font-family: FiraSans-Book !important; 
+  font-size: 16px !important;
+  color: #3f8ebf !important;
+  bottom: 5px !important;
+  padding: 15px 25px !important;
+  background-color: transparent !important;
+}
 .rectangle-2 {
   width: 108px;
   height: 38px;
@@ -113,13 +123,14 @@
   margin-top: 96px;
 }
 
-.navbar-header-new{
+.navbar-header-new {
   margin-left: -30px !important;
 }
 
 .navbar-brand-new{
   padding: 9px 0px !important;
 }
+
 .container-fluid-new{
   padding-right:0px !important;
   margin-top:23px !important;

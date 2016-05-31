@@ -582,6 +582,16 @@ ul#waves li {
   bottom: 5px !important;
   padding: 15px 25px !important;
 }
+.name-of-app-a-p-i:hover {
+  height: 19px;
+  /*opacity: 0.8 !important;*/
+  font-family: FiraSans-Book !important; 
+  font-size: 16px !important;
+  color: #3f8ebf !important;
+  bottom: 5px !important;
+  padding: 15px 25px !important;
+  background-color: transparent !important;
+}
 .rectangle-2 {
   width: 108px;
   height: 38px;
