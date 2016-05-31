@@ -91,7 +91,8 @@ window.AudioContext = window.AudioContext || window.webkitAudioContext;
 		    
 			recorder.addEventListener( "start", function(e){
 				console.log("chala");
-				document.getElementById("status").innerHTML="Recording..."
+				document.getElementById("status").innerHTML="Recording...";
+				document.getElementById("switcher").src="../../images/stop.svg";
 				switcher.value='Pause';
 				recordingIndex++;
 				var interval = setInterval(function(){
@@ -101,7 +102,8 @@ window.AudioContext = window.AudioContext || window.webkitAudioContext;
 			});
 
 			recorder.addEventListener( "pause", function(e){
-				document.getElementById("status").innerHTML="Pause"
+				document.getElementById("status").innerHTML="Record";
+				document.getElementById("switcher").src="../../images/mic.svg";
 				for(var loop=0;loop<intervalTable.length;loop++){
 					clearInterval(intervalTable[loop]);
 				}
@@ -114,7 +116,8 @@ window.AudioContext = window.AudioContext || window.webkitAudioContext;
 			});
 
 			recorder.addEventListener( "resume", function(e){
-				document.getElementById("status").innerHTML="Recording..."
+				document.getElementById("status").innerHTML="Recording...";
+				document.getElementById("switcher").src="../../images/stop.svg";
 				switcher.value='Pause';
 				recordingIndex++;
 				var interval = setInterval(function(){
