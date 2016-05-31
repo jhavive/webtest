@@ -249,7 +249,14 @@
   color: #d2dfdd;
   margin-top: 95px;
   margin-left: -50px;
-
+}
+.Language-text{
+  height: 19px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  text-align: right;
+  margin-top: 110px;
+  color: #ffffff;
 }
 .wrapper{
 	text-align: center;
