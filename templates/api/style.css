@@ -241,6 +241,16 @@
   text-align: center;
   margin-bottom: 20px !important;
 }
+#status {
+  height: 44px;  
+  text-align: left;
+  font-family: FiraSans-Light;
+  font-size: 36px;
+  color: #d2dfdd;
+  margin-top: 95px;
+  margin-left: -50px;
+
+}
 .wrapper{
 	text-align: center;
   width: 60%;
