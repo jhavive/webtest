@@ -250,7 +250,15 @@
   margin-right: auto !important;
   margin-left: auto !important;
   text-align: center !important;
-  padding-top: 106px;
+  padding-top: 80px;
+}
+.Start-a-conversation {
+  height: 44px;
+  width: 100%;
+  font-family: FiraSans-Light;
+  font-size: 36px;
+  text-align: center;
+  color: #3f8ebf;
 }
 .Imagine-a-world-wher {
   width: 574px;
@@ -296,7 +304,7 @@
 }
 .Rectangle-36 {
   width: 230px;
-  height: 650px;
+  height: 550px;
   background-color: #f6f6f6;
   margin-right: auto !important;
   margin-left: auto !important;

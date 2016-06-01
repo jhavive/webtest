@@ -396,11 +396,12 @@ filter: progid:none !important;
   height: 805px;
   background:#234663;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .info4{
   height:10%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   margin-left: 25%;
   text-align: center;
 }
