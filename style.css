@@ -128,7 +128,7 @@
 }
 .header_bg {
   width: 100.5%;
-  height: 621px;  
+  height: 630px;  
   background:linear-gradient(to bottom, #18306d, #5ed7fe);
   padding-bottom: 10%;
 }
@@ -234,7 +234,7 @@
   /*color: var(--white);*/
 }
 .email{
-  margin-top: 8%;
+  margin-top: 73px;
   position: relative;
   width:40%;
   margin-right: auto !important;
