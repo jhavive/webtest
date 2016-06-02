@@ -345,18 +345,18 @@ ul#waves li {
   color: #3f8ebf;
 }
 .infoTable{
-  width:80%;
+  width:100%;
   margin-right: auto !important;
   margin-left: auto !important;
 }
 .section1-image1{
-  width: 358px;
-  height: 110px;
+  width: 316px;
+  height: 148px;
   margin-bottom: 19vh;
 }
 .section1-image2{
-  width: 316px;
-  height: 148px;
+  width: 358px !important;
+  height: 110px;
   margin-top: 10%;
   margin-bottom: 19vh;
   width:100%;
@@ -366,10 +366,7 @@ ul#waves li {
   height: 54px;
 }
 
-.infoTable{
-  padding: 40px;
-  margin-bottom: 10%;
-}
+
 .Transcribe-your-conv {
   width: 290px;
   font-family: FiraSans-Medium;
