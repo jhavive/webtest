@@ -648,7 +648,7 @@ ul#waves li {
 
 .Register_access{
   font-family: FiraSans-Medium !important;
-  font-size: 14px;
+  font-size: 14px !important;
   color: #f6f6f6 !important;
 
 }
