@@ -479,6 +479,8 @@ filter: progid:none !important;
   color: #3f8ebf !important;
   bottom: 5px !important;
   padding: 15px 25px !important;
+  margin-left: -25px;
+  margin-right: 10px;
 }
 .name-of-app-a-p-i:hover {
   height: 19px;

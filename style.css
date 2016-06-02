@@ -328,7 +328,7 @@ ul#waves li {
   background:#ffffff;
   margin-right: auto !important;
   margin-left: auto !important;
-  margin-top: 10%;
+  margin-top: 82px;
   margin-bottom: 10%;
 }
 .What-can-Liv-do-for {
@@ -462,6 +462,7 @@ ul#waves li {
   text-align: left;
   color: #3f8ebf;
   margin-top:45%;
+  margin-bottom: 20px;
 }
 .phone-image{
   padding: 10%;
@@ -583,6 +584,8 @@ ul#waves li {
   color: #ffffff !important;
   bottom: 5px !important;
   padding: 15px 25px !important;
+  margin-left: -25px;
+  margin-right: 10px;
 }
 .name-of-app-a-p-i:hover {
   height: 19px;
