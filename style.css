@@ -323,7 +323,7 @@ ul#waves li {
 
 /*==========Second Section==============*/
 .section2 {
-  width: 50%;
+  width: 70%;
   padding-bottom: 10%;
   background:#ffffff;
   margin-right: auto !important;
@@ -345,8 +345,8 @@ ul#waves li {
   color: #3f8ebf;
 }
 .section1-image1{
-  height: 120px;
-  width: 250px;
+  height: 150px;
+  width: 85%;
   margin-bottom: 19vh;
 }
 .section1-image2{
