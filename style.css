@@ -433,7 +433,7 @@ ul#waves li {
   color: #727272;
 }
 .Extract-important-in {
-  width: 100%;
+  width: 105%;
   height: 31px;
   font-family: FiraSans-Medium;
   font-size: 21px;
@@ -469,6 +469,7 @@ ul#waves li {
   margin-bottom: 20px;
 }
 .phone-image{
+  margin-left: 100px;
   margin-top: 30%;
   height: 612px;
   width:303px;
@@ -643,4 +644,11 @@ ul#waves li {
 
 .navbar-brand-new{
   padding: 9px 0px !important;
+}
+
+.Register_access{
+  font-family: FiraSans-Medium !important;
+  font-size: 14px;
+  color: #f6f6f6 !important;
+
 }
