@@ -344,12 +344,19 @@ ul#waves li {
   text-align: center;
   color: #3f8ebf;
 }
+.infoTable{
+  width:80%;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
 .section1-image1{
-  height: 150px;
-  width: 85%;
+  width: 358px;
+  height: 110px;
   margin-bottom: 19vh;
 }
 .section1-image2{
+  width: 316px;
+  height: 148px;
   margin-top: 10%;
   margin-bottom: 19vh;
   width:100%;
@@ -465,9 +472,9 @@ ul#waves li {
   margin-bottom: 20px;
 }
 .phone-image{
-  padding: 10%;
-  margin-top: 20%;
-  height: 100%;
+  margin-top: 30%;
+  height: 612px;
+  width:303px;
 }
 .Rectangle-8 {
   width: 240px !important;
