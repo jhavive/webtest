@@ -1,0 +1,782 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Tags API</title>
+
+    <style>
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight, .highlight .w {
+  color: #f8f8f2;
+  background-color: #272822;
+}
+.highlight .err {
+  color: #151515;
+  background-color: #ac4142;
+}
+.highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
+  color: #505050;
+}
+.highlight .cp {
+  color: #f4bf75;
+}
+.highlight .nt {
+  color: #f4bf75;
+}
+.highlight .o, .highlight .ow {
+  color: #d0d0d0;
+}
+.highlight .p, .highlight .pi {
+  color: #d0d0d0;
+}
+.highlight .gi {
+  color: #90a959;
+}
+.highlight .gd {
+  color: #ac4142;
+}
+.highlight .gh {
+  color: #6a9fb5;
+  background-color: #151515;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+  color: #aa759f;
+}
+.highlight .kc {
+  color: #d28445;
+}
+.highlight .kt {
+  color: #d28445;
+}
+.highlight .kd {
+  color: #d28445;
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+  color: #90a959;
+}
+.highlight .sr {
+  color: #75b5aa;
+}
+.highlight .si {
+  color: #8f5536;
+}
+.highlight .se {
+  color: #8f5536;
+}
+.highlight .nn {
+  color: #f4bf75;
+}
+.highlight .nc {
+  color: #f4bf75;
+}
+.highlight .no {
+  color: #f4bf75;
+}
+.highlight .na {
+  color: #6a9fb5;
+}
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx {
+  color: #90a959;
+}
+.highlight .ss {
+  color: #90a959;
+}
+    </style>
+    <link href="stylesheets/screen.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/print.css" rel="stylesheet" media="print" />
+      <script src="javascripts/all.js"></script>
+  </head>
+
+  <body class="index" data-languages="[&quot;shell&quot;,&quot;python&quot;]">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="images/navbar.png" />
+      </span>
+    </a>
+    <div class="tocify-wrapper">
+      <img src="images/logo.png" />
+        <div class="lang-selector">
+              <a href="#" data-language-name="shell">Shell</a>
+              <a href="#" data-language-name="python">Python</a>
+        </div>
+        <div class="search">
+          <input type="text" class="search" id="input-search" placeholder="Search">
+        </div>
+        <ul class="search-results"></ul>
+      <div id="toc">
+      </div>
+        <ul class="toc-footer">
+            <li><a href='https://github.com/tripit/slate'>Documentation Powered by Slate</a></li>
+        </ul>
+    </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+        <h1 id="introduction">Introduction</h1>
+
+<p>Below documentation highlights the parameters as needed for each of the API.</p>
+
+<h1 id="authentication">Authentication</h1>
+
+<p>Authentication key and user ID is needed for access to the APIs. To get the key and the user ID, email us at <a href="mailto:hello@liv.ai">hello@liv.ai</a>.</p>
+
+<p>The API key has to be included in the header of all Https requests to the server.</p>
+
+<p><code class="prettyprint">Authorization: Token API_key</code></p>
+
+<p>All POST requests should also include the user ID in the body of the request.</p>
+
+<p><code class="prettyprint">user = user_ID</code></p>
+
+<aside class="notice">
+Replace <code>API_key</code> with your API key and <code>user_ID</code> with your user ID.<br>
+</aside>
+
+<aside class="notice">
+Note the space between &lsquo;Token&rsquo; and the API key.
+</aside>
+
+<h1 id="tags-upload-api">Tags Upload API</h1>
+<pre class="highlight shell"><code>curl <span class="se">\</span>
+  -H <span class="s2">"Authorization: Token exampleapikey1"</span> <span class="se">\</span>
+  --form <span class="s2">"user=123"</span> <span class="se">\</span>
+  --form <span class="s2">"language=EN"</span> <span class="se">\</span>
+  --form <span class="s2">"tag_file=@/path/tags.txt"</span> <span class="se">\</span>
+  https://dev.liv.ai/liv_speech_api/tags/
+</code></pre>
+<pre class="highlight python"><code><span class="kn">import</span> <span class="nn">requests</span>
+
+<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s">'Authorization'</span> <span class="p">:</span> <span class="s">'Token exampleapikey1'</span><span class="p">}</span>
+<span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s">'user'</span> <span class="p">:</span> <span class="s">'123'</span><span class="p">,</span> <span class="s">'language'</span> <span class="p">:</span> <span class="s">'EN'</span><span class="p">}</span>
+<span class="n">files</span> <span class="o">=</span> <span class="p">{</span><span class="s">'tag_file'</span> <span class="p">:</span> <span class="nb">open</span><span class="p">(</span><span class="s">'tags.txt'</span><span class="p">,</span><span class="s">'rb'</span><span class="p">)}</span>
+<span class="n">url</span> <span class="o">=</span> <span class="s">'https://dev.liv.ai/liv_speech_api/tags/'</span>
+<span class="n">res</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span> <span class="o">=</span> <span class="n">headers</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">,</span> <span class="n">files</span> <span class="o">=</span> <span class="n">files</span><span class="p">)</span>
+
+</code></pre>
+
+<blockquote>
+<p>The above code returns a JSON structured like</p>
+</blockquote>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"status"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"success"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+
+<p>Use this API to upload tags.</p>
+
+<h3 id="https-url">Https URL</h3>
+
+<p><code class="prettyprint">https://dev.liv.ai/liv_speech_api/tags/</code></p>
+
+<h3 id="https-method">Https Method</h3>
+
+<p>POST</p>
+
+<h3 id="header">Header</h3>
+
+<p><code class="prettyprint">Authorization: Token API_key</code></p>
+
+<h3 id="request-body">Request Body</h3>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>tag_file</td>
+<td>Text or csv file with a list of tags to be uploaded.<br>File should contain one tag per line.</td>
+</tr>
+<tr>
+<td>user</td>
+<td>Your User ID.</td>
+</tr>
+<tr>
+<td>language</td>
+<td>Language code of the tags</td>
+</tr>
+</tbody></table>
+
+<table><thead>
+<tr>
+<th>Language</th>
+<th>Code</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>English</td>
+<td>EN</td>
+</tr>
+<tr>
+<td>Hindi</td>
+<td>HI</td>
+</tr>
+</tbody></table>
+
+<h3 id="response">Response</h3>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>status</td>
+<td>Status with &ldquo;success&rdquo; message.</td>
+</tr>
+</tbody></table>
+
+<aside class="notice">File size should be less than 500 kB.</aside>
+
+<aside class="notice">In case of error, refer <code>detail</code> key for error details.</aside>
+
+<h1 id="recordings-api">Recordings API</h1>
+<pre class="highlight shell"><code>curl <span class="se">\</span>
+  -H <span class="s2">"Authorization: Token exampleapikey1"</span> <span class="se">\</span>
+  --form <span class="s2">"user=123"</span> <span class="se">\</span>
+  --form <span class="s2">"language=EN"</span> <span class="se">\</span>
+  --form <span class="s2">"audio_file=@/path/test.m4a"</span> <span class="se">\</span>
+  https://dev.liv.ai/liv_speech_api/recordings/
+
+</code></pre>
+<pre class="highlight python"><code><span class="kn">import</span> <span class="nn">requests</span>
+
+<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s">'Authorization'</span> <span class="p">:</span> <span class="s">'Token exampleapikey1'</span><span class="p">}</span>
+<span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s">'user'</span> <span class="p">:</span> <span class="s">'123'</span> <span class="p">,</span><span class="s">'language'</span> <span class="p">:</span> <span class="s">'EN'</span><span class="p">}</span>
+<span class="n">files</span> <span class="o">=</span> <span class="p">{</span><span class="s">'audio_file'</span> <span class="p">:</span> <span class="nb">open</span><span class="p">(</span><span class="s">'test.m4a'</span><span class="p">,</span><span class="s">'rb'</span><span class="p">)}</span>
+<span class="n">url</span> <span class="o">=</span> <span class="s">'https://dev.liv.ai/liv_speech_api/recordings/'</span>
+<span class="n">res</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span> <span class="o">=</span> <span class="n">headers</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">,</span> <span class="n">files</span> <span class="o">=</span> <span class="n">files</span><span class="p">)</span>
+
+</code></pre>
+
+<blockquote>
+<p>The above code returns a JSON structured like</p>
+</blockquote>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"app_session_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"exampleappsessionid1"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+
+<p>Use this API to upload single audio file per session.<br>
+Accepted file types:</p>
+
+<ul>
+<li>m4a</li>
+<li>mp3</li>
+<li>aac</li>
+</ul>
+
+<h3 id="https-url">Https URL</h3>
+
+<p><code class="prettyprint">https://dev.liv.ai/liv_speech_api/recordings/</code></p>
+
+<h3 id="https-method">Https Method</h3>
+
+<p>POST</p>
+
+<h3 id="header">Header</h3>
+
+<p><code class="prettyprint">Authorization : Token API_key</code></p>
+
+<h3 id="request-body">Request Body</h3>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>user</td>
+<td>Your user ID.</td>
+</tr>
+<tr>
+<td>audio_file</td>
+<td>The file to be uploaded.</td>
+</tr>
+<tr>
+<td>language</td>
+<td>Language code of the audio file.</td>
+</tr>
+<tr>
+<td>meta</td>
+<td>Auxiliary data (OPTIONAL).</td>
+</tr>
+</tbody></table>
+
+<table><thead>
+<tr>
+<th>Language</th>
+<th>Code</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>English</td>
+<td>EN</td>
+</tr>
+<tr>
+<td>Hindi</td>
+<td>HI</td>
+</tr>
+</tbody></table>
+
+<h3 id="response">Response</h3>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>app_session_id</td>
+<td>Session ID of the session.</td>
+</tr>
+</tbody></table>
+
+<aside class = "notice">
+Use <code>multipart/form-data</code> for the body of the request.
+</aside>
+
+<aside class="notice">File size should be less than 10 MB.</aside>
+
+<aside class="notice">In case of error, refer <code>detail</code> key for error details.</aside>
+
+<h1 id="uploading-multiple-files">Uploading Multiple Files</h1>
+
+<p>Use the below API if one wants to associate multiple audio files for a single session</p>
+
+<h2 id="sessions-api">Sessions API</h2>
+<pre class="highlight shell"><code>
+curl <span class="se">\</span>
+  -H <span class="s2">"Authorization: Token exampleapikey1"</span> <span class="se">\</span>
+  --form <span class="s2">"user=123"</span> <span class="se">\</span>
+  https://dev.liv.ai/liv_speech_api/sessions/
+
+</code></pre>
+<pre class="highlight python"><code><span class="kn">import</span> <span class="nn">requests</span>
+
+<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s">'Authorization'</span> <span class="p">:</span> <span class="s">'Token exampleapikey1'</span><span class="p">}</span>
+<span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s">'user'</span> <span class="p">:</span> <span class="s">'123'</span> <span class="p">}</span>
+<span class="n">url</span> <span class="o">=</span> <span class="s">'https://dev.liv.ai/liv_speech_api/recordings/'</span>
+<span class="n">res</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span> <span class="o">=</span> <span class="n">headers</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">)</span>
+
+</code></pre>
+
+<blockquote>
+<p>The above code returns a JSON structured like</p>
+</blockquote>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"app_session_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"exampleappsessionid1"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span></code></pre>
+
+<p>Use this API to create a new session.</p>
+
+<h3 id="https-url">Https URL</h3>
+
+<p><code class="prettyprint">https://dev.liv.ai/liv_speech_api/sessions/</code></p>
+
+<h3 id="https-method">Https Method</h3>
+
+<p>POST</p>
+
+<h3 id="header">Header</h3>
+
+<p><code class="prettyprint">Authorization: Token API_key</code></p>
+
+<h3 id="request-body">Request Body</h3>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>user</td>
+<td>Your user ID.</td>
+</tr>
+</tbody></table>
+
+<h3 id="response">Response</h3>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>app_session_id</td>
+<td>Session ID of the new session.</td>
+</tr>
+</tbody></table>
+
+<aside class = "notice">
+Use <code>multipart/form-data</code> for the body of the request.
+</aside>
+
+<aside class="notice">In case of error, refer <code>detail</code> key for error details.</aside>
+
+<h2 id="recordings-api">Recordings API</h2>
+<pre class="highlight shell"><code>curl <span class="se">\</span>
+  -H <span class="s2">"Authorization: Token exampleapikey1"</span> <span class="se">\</span>
+  --form <span class="s2">"user=123"</span> <span class="se">\</span>
+  --form <span class="s2">"language=EN"</span> <span class="se">\</span>
+  --form <span class="s2">"audio_file=@/path/test.m4a"</span> <span class="se">\</span>
+  --form <span class="s2">"app_session_id=examplesessionid1"</span> <span class="se">\</span>
+  --form <span class="s2">"recording_index=2"</span> <span class="se">\</span>
+  --form <span class="s2">"is_last=true"</span> <span class="se">\</span>
+  https://dev.liv.ai/liv_speech_api/recordings/
+
+</code></pre>
+<pre class="highlight python"><code><span class="kn">import</span> <span class="nn">requests</span>
+
+<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s">'Authorization'</span> <span class="p">:</span> <span class="s">'Token exampleapikey1'</span><span class="p">}</span>
+<span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s">'user'</span> <span class="p">:</span> <span class="s">'123'</span><span class="p">,</span> <span class="s">'language'</span> <span class="p">:</span> <span class="s">'EN'</span><span class="p">,</span> <span class="s">'app_session_id'</span> <span class="p">:</span> <span class="s">'exampleappsessionid1'</span><span class="p">,</span> <span class="s">'recording_index'</span> <span class="p">:</span> <span class="s">'2'</span><span class="p">,</span> <span class="s">'is_last'</span> <span class="p">:</span> <span class="s">'True'</span><span class="p">}</span>
+<span class="n">files</span> <span class="o">=</span> <span class="p">{</span><span class="s">'audio_file'</span> <span class="p">:</span> <span class="nb">open</span><span class="p">(</span><span class="s">'test.m4a'</span><span class="p">,</span><span class="s">'rb'</span><span class="p">)}</span>
+<span class="n">url</span> <span class="o">=</span> <span class="s">'https://dev.liv.ai/liv_speech_api/recordings/'</span>
+<span class="n">res</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span> <span class="o">=</span> <span class="n">headers</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">,</span> <span class="n">files</span> <span class="o">=</span> <span class="n">files</span><span class="p">)</span>
+
+</code></pre>
+
+<blockquote>
+<p>The above code returns a JSON structured like:</p>
+</blockquote>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"app_session_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"exampleappsessionid1"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+
+<p>Use this API to upload multiple audio files to the same session.<br>
+Accepted file types:</p>
+
+<ul>
+<li>m4a</li>
+</ul>
+
+<h3 id="https-url">Https URL</h3>
+
+<p><code class="prettyprint">https://dev.liv.ai/liv_speech_api/recordings/</code></p>
+
+<h3 id="https-method">Https Method</h3>
+
+<p>POST</p>
+
+<h3 id="header">Header</h3>
+
+<p><code class="prettyprint">Authorization : Token API_key</code></p>
+
+<h3 id="request-body">Request Body</h3>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>user</td>
+<td>Your user ID.</td>
+</tr>
+<tr>
+<td>audio_file</td>
+<td>The file to be uploaded.</td>
+</tr>
+<tr>
+<td>language</td>
+<td>Language code of the audio file.</td>
+</tr>
+<tr>
+<td>app_session_id</td>
+<td>Session ID of the session to which current file is added.</td>
+</tr>
+<tr>
+<td>recording_index</td>
+<td>Index of current file in the session.</td>
+</tr>
+<tr>
+<td>is_last</td>
+<td>True if current audio is last in the session, False otherwise<br> (Default : False).</td>
+</tr>
+<tr>
+<td>meta</td>
+<td>Auxiliary data (OPTIONAL).</td>
+</tr>
+</tbody></table>
+
+<table><thead>
+<tr>
+<th>Language</th>
+<th>Code</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>English</td>
+<td>EN</td>
+</tr>
+<tr>
+<td>Hindi</td>
+<td>HI</td>
+</tr>
+</tbody></table>
+
+<h3 id="response">Response</h3>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>app_session_id</td>
+<td>Session ID of the session.</td>
+</tr>
+</tbody></table>
+
+<aside class = "notice">
+Use <code>multipart/form-data</code> for the body of the request.
+</aside>
+
+<aside class="notice">File size should be less than 10 MB.</aside>
+
+<aside class="notice">In case of error, refer <code>detail</code> key for error details.</aside>
+
+<h1 id="status-api">Status API</h1>
+<pre class="highlight shell"><code>curl <span class="se">\</span>
+  -H <span class="s2">"Authorization: Token exampleapikey1"</span> <span class="se">\</span>
+  -X GET <span class="se">\</span>
+  https://dev.liv.ai/liv_speech_api/session/status/?app_session_id<span class="o">=</span>exampleappsessionid1
+
+</code></pre>
+<pre class="highlight python"><code><span class="kn">import</span> <span class="nn">requests</span>
+
+<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s">'Authorization'</span> <span class="p">:</span> <span class="s">'Token exampleapikey1'</span><span class="p">}</span>
+<span class="n">params</span> <span class="o">=</span> <span class="p">{</span><span class="s">'app_session_id'</span> <span class="p">:</span> <span class="s">'exampleappsessionid1'</span><span class="p">}</span>
+<span class="n">url</span> <span class="o">=</span> <span class="s">'https://dev.liv.ai/liv_speech_api/session/status/'</span>
+<span class="n">res</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span> <span class="o">=</span> <span class="n">headers</span><span class="p">,</span> <span class="n">params</span> <span class="o">=</span> <span class="n">params</span><span class="p">)</span>
+
+</code></pre>
+
+<blockquote>
+<p>The above code returns a JSON structured like</p>
+</blockquote>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"upload_status"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"transcribed_status"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"tags_status"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+
+<p>Use this API to check session status.</p>
+
+<h3 id="https-url">Https URL</h3>
+
+<p><code class="prettyprint">https://dev.liv.ai/liv_speech_api/session/status/</code></p>
+
+<h3 id="https-method">Https Method</h3>
+
+<p>GET</p>
+
+<h3 id="header">Header</h3>
+
+<p><code class="prettyprint">Authorization : Token API_key</code></p>
+
+<h3 id="parameters">Parameters</h3>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>app_session_id</td>
+<td>The app session id of the session for which you are checking status.</td>
+</tr>
+</tbody></table>
+
+<h3 id="response">Response</h3>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>upload_status</td>
+<td>Upload status code.</td>
+</tr>
+<tr>
+<td>transcribed_status</td>
+<td>Status of transcription (True/False).</td>
+</tr>
+<tr>
+<td>tags_status</td>
+<td>Status of tags (True/False).</td>
+</tr>
+</tbody></table>
+
+<table><thead>
+<tr>
+<th>Upload Status Code</th>
+<th>Details</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>0</td>
+<td>Unprocessed session.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Incomplete session where last part is received but some parts are missing.</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Incomplete session where last part is not received.</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Complete session. Session closed and no more files can be added.</td>
+</tr>
+<tr>
+<td>-10</td>
+<td>Session immaturely closed due to insufficient number of uploads.</td>
+</tr>
+</tbody></table>
+
+<aside class="notice">In case of error, refer <code>detail</code> key for error details.</aside>
+
+<h1 id="session-tags-api">Session Tags API</h1>
+<pre class="highlight shell"><code>curl <span class="se">\</span>
+  -H <span class="s2">"Authorization: Token exampleapikey1"</span> <span class="se">\</span>
+  -X GET <span class="se">\</span>
+  https://dev.liv.ai/liv_speech_api/session/tags/?app_session_id<span class="o">=</span>exampleappsessionid1
+
+</code></pre>
+<pre class="highlight python"><code><span class="kn">import</span> <span class="nn">requests</span>
+
+<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s">'Authorization'</span> <span class="p">:</span> <span class="s">'Token exampleapikey1'</span><span class="p">}</span>
+<span class="n">params</span> <span class="o">=</span> <span class="p">{</span><span class="s">'app_session_id'</span> <span class="p">:</span> <span class="s">'exampleappsessionid1'</span><span class="p">}</span>
+<span class="n">url</span> <span class="o">=</span> <span class="s">'https://dev.liv.ai/liv_speech_api/session/tags/'</span>
+<span class="n">res</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span> <span class="o">=</span> <span class="n">headers</span><span class="p">,</span> <span class="n">params</span> <span class="o">=</span> <span class="n">params</span><span class="p">)</span>
+
+</code></pre>
+
+<blockquote>
+<p>The above code returns a JSON structured like</p>
+</blockquote>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"app_session_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"exampleappsessionid1"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"tags"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"confidence_score"</span><span class="p">:</span><span class="mf">0.866539857262059</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"text_hindi"</span><span class="p">:</span><span class="s2">"आफ्टरनून"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"text_eng"</span><span class="p">:</span><span class="s2">"afternoon"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"time_sec"</span><span class="p">:</span><span class="mf">13.16</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"confidence_score"</span><span class="p">:</span><span class="mf">0.91951566175981</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"text_hindi"</span><span class="p">:</span><span class="s2">"डोनट"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"text_eng"</span><span class="p">:</span><span class="s2">"don't"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"time_sec"</span><span class="p">:</span><span class="mf">5.06</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+
+<p>Use this API to get the tags associated with a particular session.</p>
+
+<h3 id="https-url">Https URL</h3>
+
+<p><code class="prettyprint">https://dev.liv.ai/liv_speech_api/session/tags/</code></p>
+
+<h3 id="https-method">Https Method</h3>
+
+<p>GET</p>
+
+<h3 id="header">Header</h3>
+
+<p><code class="prettyprint">Authorization : Token API_key</code></p>
+
+<h3 id="parameters">Parameters</h3>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>app_session_id</td>
+<td>The app session id of the session for which tags are required.</td>
+</tr>
+</tbody></table>
+
+<h3 id="response">Response</h3>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>app_session_id</td>
+<td>Session ID of the session.</td>
+</tr>
+<tr>
+<td>tags</td>
+<td>List of tags associated with the session.</td>
+</tr>
+</tbody></table>
+
+<p>The fields in each tag are explained below.</p>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>confidence_score</td>
+<td>Confidence level of extracted phrase.</td>
+</tr>
+<tr>
+<td>text_hindi</td>
+<td>Phrase in Hindi.</td>
+</tr>
+<tr>
+<td>text_eng</td>
+<td>Phrase in English.</td>
+</tr>
+<tr>
+<td>time_sec</td>
+<td>Time of occurrence of phrase in the audio (in seconds).</td>
+</tr>
+</tbody></table>
+
+<aside class="notice">In case of error, refer <code>detail</code> key for error details.</aside>
+
+      </div>
+      <div class="dark-box">
+          <div class="lang-selector">
+                <a href="#" data-language-name="shell">Shell</a>
+                <a href="#" data-language-name="python">Python</a>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>

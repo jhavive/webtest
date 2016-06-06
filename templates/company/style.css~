@@ -1,0 +1,469 @@
+@font-face {
+  font-family: 'FiraSans-Regular';
+  src: url('../../fonts/FiraSans-Regular.eot');
+  src: url('../../fonts/FiraSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/FiraSans-Regular.woff') format('woff'),
+    url('../../fonts/FiraSans-Regular.ttf') format('truetype'),
+    url('../../fonts/FiraSans-Regular.svg#FiraSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FiraSans-Book';
+  src: url('../../fonts/FiraSans-Book.eot');
+  src: url('../../fonts/FiraSans-Book.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/FiraSans-Book.woff') format('woff'),
+    url('../../fonts/FiraSans-Book.ttf') format('truetype'),
+    url('../../fonts/FiraSans-Book.svg#FiraSans-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FiraSans-Light';
+  src: url('../../fonts/FiraSans-Light.eot');
+  src: url('../../fonts/FiraSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/FiraSans-Light.woff') format('woff'),
+    url('../../fonts/FiraSans-Light.ttf') format('truetype'),
+    url('../../fonts/FiraSans-Light.svg#FiraSans-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FiraSans-Medium';
+  src: url('../../fonts/FiraSans-Medium.eot');
+  src: url('../../fonts/FiraSans-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/FiraSans-Medium.woff') format('woff'),
+    url('../../fonts/FiraSans-Medium.ttf') format('truetype'),
+    url('../../fonts/FiraSans-Medium.svg#FiraSans-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+.Livai {
+  width: 59.7px;
+  height: 21.8px;
+  object-fit: contain;
+  margin-left: 166px;
+  background-color: #d2dfdd;
+  background-color: var(--blue-grey);
+}
+.navbar{
+  background: transparent;
+}
+.menu{
+  margin-right: 161px !important;
+}
+.getStarted {
+  /*margin-top: 10% !important;*/
+  width: 108px !important;
+  height: 38px !important;
+  /*background-color: var(--grey4);*/
+  border-radius: 21px !important;
+  border: solid 1px #3f8ebf !important;
+  /*border: solid 1px var(--blue);*/
+  /*font-size:12 !important;*/
+  background-color: #fff !important;
+  color: #3f8ebf !important;
+}
+
+.name-of-app-a-p-i {
+  height: 19px;
+  /*opacity: 0.8 !important;*/
+  font-family: FiraSans-Book !important; 
+  font-size: 16px !important;
+  color: #3f8ebf !important;
+  bottom: 5px !important;
+  padding: 15px 25px !important;
+  margin-left: -25px;
+  margin-right: 10px;
+}
+.name-of-app-a-p-i:hover {
+  height: 19px;
+  /*opacity: 0.8 !important;*/
+  font-family: FiraSans-Book !important; 
+  font-size: 16px !important;
+  color: #3f8ebf !important;
+  bottom: 5px !important;
+  padding: 15px 25px !important;
+  background-color: transparent !important;
+}
+.rectangle-2 {
+  width: 108px;
+  height: 38px;
+  border-radius: 21px;
+  background-color: rgba(216,216,216,0) !important;
+  border: 0px;
+}
+.get-started {
+  width: 95px;
+  height: 19px;
+  font-family: FiraSans-Book !important;
+  font-size: 16px !important;
+  color: rgba(255,255,255,0.8)  !important;
+  margin: 0px !important;
+}
+
+.navbar_li{
+  float:right;
+}
+
+.navbar_container{
+  margin: 23px 161px 0px 166px !important;
+}
+
+.h1_container{
+  margin-top: 75px;
+}
+
+.section1_img{
+  background-image: linear-gradient(to bottom, rgba(48, 5, 71, 0.7), rgba(94, 214, 254, 0));
+}
+
+.section2_h1_container{
+  margin-top: 96px;
+}
+
+.navbar-header-new {
+  margin-left: -30px !important;
+}
+
+.navbar-brand-new{
+  padding: 9px 0px !important;
+}
+
+.container-fluid-new{
+  padding-right:0px !important;
+  margin-top:23px !important;
+}
+
+
+
+
+
+
+
+
+.modal-backdrop {
+   background-color: #fff !important;
+}
+.modal-content{
+  margin-top: 10% !important;
+}
+.modal-body{
+  width: 100%;
+  height:75%;
+  z-index: 99;
+  position: fixed;
+  padding: 0 !important;
+}
+.custom-modal-header{
+  width:      100%;
+  margin: 0 !important;
+  height:130px;
+
+  z-index: 99;
+  position: fixed;
+  background-image: linear-gradient(to bottom, #18306d, #5ed7fe) !important;
+  position: fixed;
+}
+.waveImage{
+  width: 100%;
+  position: absolute;
+  bottom:0px;
+}
+.modal-info {
+  width:100%;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  text-align: center;
+}
+.modal-info1 {
+  width:100%;
+  height: 500px;
+  padding-top:20%; 
+  position: fixed;
+  text-align: center;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  background-image: linear-gradient(to bottom, #f6f6f6, #f6f6f6) !important;
+}
+.form-get-started{
+
+}
+.Thank-you-for-your-i {
+  width: 100%;
+  font-family: FiraSans-Light;
+  font-size: 24px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  color: #d2dfdd;
+}
+.Please-leave-your-in {
+  width: 419px;
+  height: 19px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  color: #9ea8ac;
+  color: var(--grey1);
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.Rectangle-47 {
+  width: 425px;
+  height: 52px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 12px;
+  background-color: #ffffff;
+  border: solid 1px #d2dfdd;
+  border: solid 1px var(--silver);
+}
+.Rectangle-8-copy {
+  width: 240px !important;
+  height: 44px!important;
+  border-radius: 21px!important;
+  background-color: #3f8ebf!important;
+  color: #fff!important;
+  /*background-color: var(--blue);*/
+  margin-top:1%!important;
+  border: solid 1px #3f8ebf!important;
+  border: solid 1px var(--blue)!important;
+  margin-right: auto!important;
+  margin-left: auto!important;
+
+}
+
+
+.header_bg {
+  width: 100%;
+  height: auto;
+}
+.Rectangle-46 {
+  margin-top: 3%;
+  width: 100%;
+  height: 427px;
+  background-image: linear-gradient(to bottom, #2bc0e4, #eaecc6);
+}
+.info1{
+  margin-right: auto !important;
+  margin-left: auto !important;
+  text-align: center !important;
+  padding-top: 80px;
+}
+.Start-a-conversation {
+  height: 44px;
+  width: 100%;
+  font-family: FiraSans-Light;
+  font-size: 36px;
+  text-align: center;
+  color: #3f8ebf;
+}
+.Imagine-a-world-wher {
+  width: 574px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.Now-stop-imagining {
+  width: 353px;
+  height: 19px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+  color: #234663;margin-right: auto !important;
+  margin-left: auto !important;
+}
+.Were-strategists-d {
+  width: 715.8px;
+  height: 88px;
+  font-family: FiraSans-Light;
+  font-size: 36px;
+  text-align: center;
+  color: #3f8ebf;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.info2{
+  margin-right: auto !important;
+  margin-left: auto !important;
+  text-align: center !important;
+  padding-top: 106px;
+}
+.founders{
+  width:75%!important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.Rectangle-36 {
+  width: 230px;
+  height: 550px;
+  background-color: #f6f6f6;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
+}
+.info-founders{
+  width: 185px;
+  text-align: left;
+  padding: 15px;
+}
+.Subodh-Kumar {
+  width: 108px;
+  height: 21px;
+  font-family: FiraSans-Medium;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #234663;
+}
+.Sanjeev-Kumar-PhD {
+  width: 146px;
+  height: 21px;
+  font-family: FiraSans-Medium;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #234663;
+}
+.Subodh-is-the-foundi {
+  width: 185px;;
+  height: 88px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #727272;
+  color: var(--grey3);
+}
+
+
+.Rectangle-8 {
+  margin-top: 134px;
+  width: 171px;
+  height: 44px;
+  background: transparent;
+  border-radius: 21px;
+  border: solid 1px #3f8ebf;
+}
+.copyright{
+  margin-top: 5%;
+  width: auto;
+  height: 21px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #727272;
+}
+
+
+.section6 {
+  background:#fff;
+  text-align: center;
+}
+.waveImage1{
+  background-color: #3f8ebf;
+  background-color: var(--blue);
+}
+
+.hellolivai {
+  height: 19px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  color: #9ea8ac;
+}
+.016-Livai {
+  width: auto;
+  height: 21px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #727272;
+}
+.info6{
+}
+.Careers-Company {
+  width: auto;
+  height: 29px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #bcbcbc;
+}
+@media only screen and (max-width: 500px) {
+.nav.navbar-nav.navbar-right.menu{
+display:none;
+}
+.Livai{
+	margin-left:30%;
+}
+.info1{
+	padding-top:30px;
+	width:95%;
+}
+.Start-a-conversation{
+	display:none;
+}
+.Imagine-a-world-wher{
+	width:95%;
+}
+.Rectangle-46{
+	height:auto;
+	padding-bottom:30px;
+}
+.info2{
+	padding-top:30px;
+}
+.Were-strategists-d{
+	height:auto;
+	width:auto;
+}
+.Subodh-is-the-foundi{
+	height:auto;
+	width:auto;
+}
+.info-founders{
+	height:auto;
+	width:auto;
+}
+.Rectangle-36{
+	margin-bottom:15px;
+}
+.hellolivai{
+	height:auto;
+}
+.Careers-Company{
+	height:auto;
+}
+.span1{
+	display:block !important;
+margin-top:15%;
+}
+col-md-5.img{
+width:180px;
+height:180px;
+margin:0 auto;
+}
+.info6{
+width:80%;
+}
+.span2{
+	display:block !important;
+	margin-top:5%;
+}
+.span3{
+	display:none !important;
+}
+.row{
+	margin:0 auto !important;
+	/*Should change navigation bar and some buttons - Ravindra*/
+}
+}
+

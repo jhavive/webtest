@@ -1,0 +1,229 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="styles/bootstrap.css" >
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+	</head>
+	<body>
+		<div class="section">
+			<div class="header_bg">
+				<nav class="navbar navbar-transparent">
+				  	<div class="container-fluid container-fluid-new ">
+				    	<div class="navbar-header">
+				     		<a class="navbar-brand navbar-brand-new" href="#"><img src="images/livai.png" class="Livai"/></a>
+				    	</div>
+				   		<!--<ul class="nav navbar-nav navbar-right menu">
+				      		<!-<li class="navbar_li"><a class="name-of-app-a-p-i" href="templates/app/app.html">Apps</a></li>-->
+				      		<!--<li class="navbar_li"><a class="name-of-app-a-p-i" href="templates/api/api.html">API</a></li>
+				      		<li class="navbar_li"><a class="name-of-app-a-p-i" href="templates/company/company.html">Company</a></li>
+				      		<li class="navbar_li"><button class="getStarted rectangle-2" data-toggle="modal" data-target="#myModal"><p class="get-started">Get Started</p></button></li> 
+				      		
+				    	</ul>
+				    	<div class="modal" id="myModal" role="dialog">
+						    <div class="modal-dialog">
+						    
+						      <!- Modal content-->
+						     <!-- 	<div class="modal-content">
+						          	
+							        <div class="modal-body">
+							        	<div class="custom-modal-header">
+							        		<button type="button" class="close" data-dismiss="modal" style="color: white; margin-right: 10px;">&times;</button>
+							        		<br>
+							        		<br>
+							        		<div class="modal-info">
+							          			<h4 class="Thank-you-for-your-i">Thank you for your interest in Liv.<br>
+							          			We&#8217;re excited to hear from you.</h4>
+							          		</div>
+							          		<img src="images/page-1.svg" class="waveImage">
+							          	</div>
+
+							          	<div class="modal-info1">
+							          		<h3 class="Please-leave-your-in"> Please leave your information and let us get back to you</h3>
+							          		<form class="form-get-started">
+							          			<input type="text" class="Rectangle-47" id="name" placeholder="Name">
+							          			<br>
+							          			<input type="text" class="Rectangle-47" id="email" placeholder="Email-Address">
+							          			<br>
+							          			<input type="text" class="Rectangle-47" id="phoneNumber" placeholder="Phone Number">
+							          			<br>
+  												<button type="submit" class="rectangle-8">Submit</button>
+											</form>
+							          	</div>
+							        </div>	
+						      </div>
+						      
+						    </div>
+					    </div>
+				  	</div>
+				</nav>-->
+				<div class="info1">
+					<svg class="waves" id="waves" >
+
+					</svg>
+					<p class="Supercharge-your-eff ">Supercharge your efficiency with Liv<sup class="beta">Beta</sup>
+					<br><p class="The-smartest-persona">Smartest personal assistant. For the smartest people.</p><br>
+					<p class="Available-in-English">Available in English &amp; Hindi.</p>
+					</p>
+					<form class="email" action="php/email.php" method="post">
+						<div class="row">
+							<div class="col-md-8" >
+								<input class="Rectangle-3" type="text" name="email" placeholder="       Leave us your email address"></input>
+							</div>
+							<div class="col-md-4" >
+								<button type="submit" class="Rectangle-3-Copy">Get Started</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="section2">
+			<h1 class="What-can-Liv-do-for">What can Liv do for you</h1>
+			<table class="infoTable">
+				<tr>
+					<td style="padding-right:87px;">
+						<H2 class="Transcribe-your-conv">
+							Transcribe your conversations
+						</H2>
+						<p class="Liv-will-transcribe">
+							Liv will transcribe your conversations accurately in real time and tag the speakers, so that the
+
+information is always at your command. You can forget about remembering every spoken word
+
+or taking notes. Liv does it for you.
+						</p>
+					</td>
+					<td>
+						<img src="images/home-page2.png" class="section1-image2"/>
+					</td>
+				</tr>
+				<tr class="only">
+					<td>
+						<img src="images/home-page1.png" class="section1-image1"/>
+					</td>
+					<td>
+						<H2 class="Transcribe-your-conv">
+							Summarise your calls
+						</H2>
+						<p class="Liv-will-transcribe">
+							Stop sifting through notes looking for that ONE crucial point for your meeting. Liv summarises
+
+your conversations in easy to assimilate reports without losing any key data, giving you a ready
+
+reckoner of all your discussions.
+						</p>
+					</td>
+				</tr>
+<tr class="disp" style="display:none;">
+					<td>
+						<H2 class="Transcribe-your-conv">
+							Summarise your calls
+						</H2>
+						<p class="Liv-will-transcribe">
+							Stop sifting through notes looking for that ONE crucial point for your meeting. Liv summarises
+
+your conversations in easy to assimilate reports without losing any key data, giving you a ready
+
+reckoner of all your discussions.
+						</p>
+					</td>
+					<td>
+						<img src="images/home-page1.png" class="section1-image1"/></td>
+				</tr>
+			</table>
+				<div class="col-md-4" >
+					<button type="submit" class="Rectangle-3-Copy1" style="display:none;">More
+</button>
+				</div>
+			<!-- <div class="infoTable"></div> -->
+
+			<div class="row" style="margin-top:25px;">
+				<div class="col-sm-4">
+					<img src="images/search-audio.svg" class="section1-image3">
+					<br>
+					<H2 class="Search-your-audio">Search your audio</H2><br>
+					<p class="Livs-unique-audio-s"> Trying to remember who said what and when? Why bother? Liv’s unique audio search function
+
+uses effective keywords to quickly analyse hours of conversation and gives you what you are
+
+looking for.</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="images/icon_v1.svg" style="height: 51px; width:99px; margin-bottom:3px;" class="section1-image3">
+					<br>
+					<H2 class="Set-reminders-and-al">Set reminders and alerts</H2><br>
+					<p class="Liv-reminds-you-abou">You can plan a meeting, then forget it. Liv reminds you when the time is right by extracting the
+
+time and location information from your conversation and acting on this by scheduling an alert.
+
+All that you have to do is turn up!</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="images/extract-info.svg" class="section1-image3">
+					<br>
+					<H2 class="Extract-important-in">Extract important information</H2><br>
+					<p class="Liv-easily-recognise"> Liv easily recognises phone numbers, dates, addresses and email ids and extracts it for future
+
+reference. So that every contact information is at your fingertips. You just calmly compose and
+
+press SEND..</p>
+				</div>
+			</div>
+		</div>
+		<div class="section3">
+			<div class="info3">
+				<div class="row">
+					<div class="col-md-6">
+						<h1 class="Members-only-Android">Members-only Android app</h1>
+						<button class="Rectangle-8 btn btn-info btn-lg Register_access" data-toggle="modal" data-target="#myModal">Register for access key</button>
+						<!-- <button class="Rectangle-8-copy">Know more</button> -->
+					
+					<button type="submit" class="Rectangle-3-Copy2" style="display:none;background-color:transparent;">Know More
+</button>
+			</div>
+					<div class="col-md-6 only">
+						<img src="images/s-6-blue.png" class="phone-image">
+					</div>
+					<span class="disp1" style="display:none;"><img src="images/s-6-blue.png" class="phone-image"></span>
+			</div>
+		</div>
+		<div class="section4">
+			<div class="info6">
+				<h1 class="Explore-the-APIs-an">Explore the API&#39s and demo the product</h1>
+				<form action="templates/api/api.html">
+					<button type="submit" class="Rectangle-8-copy">Explore</button> 
+				</form>
+				<br>
+				<div class="row address">
+					<div class="col-md-12">
+						<h3 class="hellolivai"><img src="images/livai.png"/>&nbsp;&nbsp;&nbsp;&nbsp;<span class="span1" style="display:none;"></span><img src="images/location.svg"/>&nbsp;&nbsp;Old Airport Road, Bangalore&nbsp;&nbsp;<span class="span2" style="display:none;"></span><img src="images/email.svg"/>&nbsp;&nbsp;hello@liv.ai&nbsp;&nbsp;</h3>
+					</div>
+				</div>
+				<h4 class="Careers-Company">* Careers  *  Company  *  App  *  APIs *  Terms & Condition</span></h4>
+				<H4 class="copyright">&#169;2016 Liv.ai </H4>
+			</div>
+			
+			<script type="text/javascript">
+				var svg = document.getElementById("graph");
+				for(var idx=0;idx<115;idx++){
+					console.log("Graph");
+					var rect = document.createElementNS("http://www.w3.org/2000/svg",'rect');
+					temp = ((Math.random()*100)%200);
+					rect.setAttribute('y',temp);
+				    rect.setAttribute('x',(idx*12));
+				    rect.setAttribute('width',9);
+				    rect.setAttribute('height',200-temp);
+				    //rect.setAttribute('height',(idx-svg.style.height));
+				    rect.setAttribute('fill','#ecf4f9');
+				    svg.appendChild(rect);
+				}
+			</script>
+		</div>
+	</body>
+</html>

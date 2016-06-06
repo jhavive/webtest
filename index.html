@@ -7,6 +7,9 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="js/bootstrap.js"></script>
 		<script type="text/javascript" src="app.js"></script>
+		
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	</head>
 	<body>
 		<div class="section">
@@ -26,8 +29,8 @@
 				    	<div class="modal" id="myModal" role="dialog">
 						    <div class="modal-dialog">
 						    
-						      <!-- Modal content-->
-						      	<div class="modal-content">
+						      <!- Modal content-->
+						     	<div class="modal-content">
 						          	
 							        <div class="modal-body">
 							        	<div class="custom-modal-header">
@@ -65,6 +68,7 @@
 
 					</svg>
 					<p class="Supercharge-your-eff ">Supercharge your efficiency with Liv<sup class="beta">Beta</sup>
+					<p class="betamob" style="display:none;">Beta</p>
 					<br><p class="The-smartest-persona">Smartest personal assistant. For the smartest people.</p><br>
 					<p class="Available-in-English">Available in English &amp; Hindi.</p>
 					</p>
@@ -103,7 +107,7 @@ or taking notes. Liv does it for you.
 						<img src="images/home-page2.png" class="section1-image2"/>
 					</td>
 				</tr>
-				<tr>
+				<tr class="only">
 					<td>
 						<img src="images/home-page1.png" class="section1-image1"/>
 					</td>
@@ -120,8 +124,29 @@ reckoner of all your discussions.
 						</p>
 					</td>
 				</tr>
+<tr class="disp" style="display:none;">
+					<td>
+						<H2 class="Transcribe-your-conv">
+							Summarise your calls
+						</H2>
+						<p class="Liv-will-transcribe">
+							Stop sifting through notes looking for that ONE crucial point for your meeting. Liv summarises
+
+your conversations in easy to assimilate reports without losing any key data, giving you a ready
+
+reckoner of all your discussions.
+						</p>
+					</td>
+					<td>
+						<img src="images/home-page1.png" class="section1-image1"/></td>
+				</tr>
 			</table>
+				<div class="col-md-4" >
+					<button type="submit" class="Rectangle-3-Copy1" style="display:none;">More
+</button>
+				</div>
 			<!-- <div class="infoTable"></div> -->
+
 			<div class="row" style="margin-top:25px;">
 				<div class="col-sm-4">
 					<img src="images/search-audio.svg" class="section1-image3">
@@ -162,28 +187,29 @@ press SEND..</p>
 						<h1 class="Members-only-Android">Members-only Android app</h1>
 						<button class="Rectangle-8 btn btn-info btn-lg Register_access" data-toggle="modal" data-target="#myModal">Register for access key</button>
 						<!-- <button class="Rectangle-8-copy">Know more</button> -->
-					</div>
-					<div class="col-md-6">
+			</div>
+					<div class="col-md-6 only">
 						<img src="images/s-6-blue.png" class="phone-image">
 					</div>
+					<span class="disp1" style="display:none;"><img src="images/s-6-blue.png" class="phone-image"></span>
 			</div>
 		</div>
 		<div class="section4">
 			<div class="info6">
 				<h1 class="Explore-the-APIs-an">Explore the API&#39s and demo the product</h1>
-				<!-- <button class="Rectangle-8-copy">Know more</button> -->
+				<form action="templates/api/api.html">
+					<button type="submit" class="Rectangle-8-copy">Explore</button> 
+				</form>
 				<br>
 				<div class="row address">
 					<div class="col-md-12">
-						<h3 class="hellolivai"><img src="images/livai.png"/>&nbsp&nbsp&nbsp&nbsp<img src="images/location.svg"/>&nbsp&nbspOld Airport Road, Bangalore&nbsp&nbsp<img src="images/email.svg"/>&nbsp&nbsphello@liv.ai&nbsp&nbsp</h3>
+						<h3 class="hellolivai"><img src="images/livai.png"/>&nbsp;&nbsp;&nbsp;&nbsp;<span class="span1" style="display:none;"></span><img src="images/location.svg"/>&nbsp;&nbsp;Old Airport Road, Bangalore&nbsp;&nbsp;<span class="span2" style="display:none;"></span><img src="images/email.svg"/>&nbsp;&nbsp;hello@liv.ai&nbsp;&nbsp;</h3>
 					</div>
 				</div>
-				<h4 class="Careers-Company">Careers  *  Company  *  App  *  APIs  *  Terms & Condition</h4>
+				<h4 class="Careers-Company">* Careers  *  Company  *  App  *  APIs *  Terms & Condition</span></h4>
 				<H4 class="copyright">&#169;2016 Liv.ai </H4>
 			</div>
-			<svg class="waveImage1" id="graph" width="100%" height="100px">
-				
-			</svg>
+			
 			<script type="text/javascript">
 				var svg = document.getElementById("graph");
 				for(var idx=0;idx<115;idx++){

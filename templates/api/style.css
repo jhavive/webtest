@@ -600,3 +600,122 @@ filter: progid:none !important;
   padding-right:0px !important;
   margin-top:23px !important;
 }
+@media only screen and (max-width: 345px) {
+.Rectangle-7{
+	border-radius:2em !important;
+	width:100%;
+}
+.Rectangle-7-copy{
+	border-radius:2em !important;
+	width:80%;
+}
+
+}
+@media only screen and (max-width: 500px) {
+.nav.navbar-nav.navbar-right.menu{
+display:none;
+}
+.Start-a-conversation{
+	height:auto;	
+}
+.Livai{
+	margin-left:30%;
+}
+.info1{
+width:70%;
+}
+.Seamlessly-integrate{
+width:auto;
+height:auto;
+}
+.section1{
+height:auto;
+}
+.mob{
+align-content:center;
+}
+.col-md-3.mob{
+padding:0;
+}
+.Demo-this-ground-bre{
+width:70%;
+height:auto;
+}
+.submit{
+margin-top:57px;
+}
+#status{
+	margin:0px;
+	text-align:center;
+}
+.Language-text{
+	margin:0px;
+	display:none;
+}
+.language{
+margin-top:10%;
+}
+.col-md-4.mob{
+	width:auto;
+}
+.Want-to-know-how-our{
+	width:80%;
+	margin-top:10%;
+}
+.section-api, .section2{
+	height:auto;
+}
+.Use-cases,.Dont-just-listen-to, .Explore-our-APIs-u{
+width:auto;
+height:auto;
+}
+.info4{
+	margin-left:0px;
+}
+.col-md-4.mob1{
+	margin-bottom:20.1px;
+}
+.Rectangle-4{
+	height:auto !important;
+	padding-bottom:5%;
+}
+.section3{
+	height:1180px;
+	margin-top:10%;
+}
+.email{
+width:100%;
+}
+.Rectangle-7{
+	width:162px;
+}
+.info5 {
+	width:75%;
+}
+.hellolivai{
+	height:auto;
+}
+.Careers-Company{
+	height:auto;
+}
+.span1{
+	display:block !important;
+margin-top:15%;
+}
+col-md-5.img{
+width:180px;
+height:180px;
+margin:0 auto;
+}
+.info6{
+width:80%;
+}
+.span2{
+	display:block !important;
+	margin-top:5%;
+}
+.span3{
+	display:none !important;
+}
+}
+

@@ -1,0 +1,263 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="../../styles/bootstrap.css" >
+		<!-- Latest compiled and minified JavaScript -->
+
+		<script src="../../js/jquery.min.js"></script>
+		<script src="../../js/bootstrap.js"></script>
+
+		<script type="text/javascript" src="../../js/jquery.fullPage.js"></script>
+		<link rel="stylesheet" type="text/css" href="../../styles/jquery.fullPage.css" />
+		<script src="recorder.js"></script>
+		<script src="decode.js"></script>
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="section1">
+			<nav class="navbar navbar-transparent">
+			  	<div class="container-fluid container-fluid-new ">
+			    	<div class="navbar-header">
+			     		<a class="navbar-brand navbar-brand-new" href="../../index.html">
+			     			<img src="../../images/livai-blue.png" class="Livai"/>
+			     		</a>
+			    	</div>
+			   		<ul class="nav navbar-nav navbar-right menu">
+			      		<!-- <li class="active"><a href="#">Apps</a></li> !-->
+			      		<li class="navbar_li"><a  class="name-of-app-a-p-i" href="#">API</a></li>
+			      		<li class="navbar_li"><a  class="name-of-app-a-p-i" href="../company/company.html">Company</a></li>
+			      		<li ><button class="getStarted rectangle-2" data-toggle="modal" data-target="#myModal">Get Started</a></li> 
+				      		
+				    	</ul>
+				    	<div class="modal" id="myModal" role="dialog">
+						    <div class="modal-dialog">
+						    
+						      <!-- Modal content-->
+						      	<div class="modal-content">
+						          	
+							        <div class="modal-body">
+							        	<div class="custom-modal-header">
+							        		<button type="button" class="close" data-dismiss="modal" style="color: white; margin-right: 10px;">&times;</button>
+							        		<br>
+							        		<br>
+							        		<div class="modal-info">
+							          			<h4 class="Thank-you-for-your-i">Thank you for your interest in Liv.<br>
+							          			We&#8217;re excited to hear from you.</h4>
+							          		</div>
+							          		<img src="../../images/page-1.svg" class="waveImage">
+							          	</div>
+
+							          	<div class="modal-info1">
+							          		<h3 class="Please-leave-your-in"> Please leave your information and let us get back to you</h3>
+							          		<form class="form-get-started">
+							          			<input type="text" class="Rectangle-47" id="name" placeholder="Name">
+							          			<br>
+							          			<input type="text" class="Rectangle-47" id="email" placeholder="Email-Address">
+							          			<br>
+							          			<input type="text" class="Rectangle-47" id="phoneNumber" placeholder="Phone Number">
+							          			<br>
+  												<button type="submit" class="rectangle-8">Submit</button>
+											</form>
+							          	</div>
+							        </div>	
+						      </div>
+			  	</div>
+			</nav>
+			<div class="info1">
+				<h1 class="Start-a-conversation">Start a conversation with your machine!</h1><br>
+				<p class="Seamlessly-integrate">
+					Seamlessly integrate text and speech with our precise transcription, audio search and categorisation tools<br>
+					Speak to your device to try it out!</p>
+					<div class="row">
+						<div class="col-md-3">
+						<div style="width: 100%;"></div>
+						</div>
+						<div class="col-md-3 mob" style="padding-right: 0 !important;">
+							<form action="../error/error.html">
+								<button type="submit" class="Rectangle-3-Copy">Show All APIs</button>
+							</form>
+						</div>
+						<div class="col-md-3 mob" style="padding-left: 0 !important;">
+							<form action="../tags/index.html">	
+								<button align="center" class="Rectangle-3-Copy">Documentation</button> 
+							</form>
+						</div>
+						<div class="col-md-3">
+							<div style="width: 100%;"></div>
+						</div>
+					</div>
+			</div>
+		</div>
+		<div class="section-api">
+			<p class="Demo-this-ground-bre Speakto-New">Just click on the microphone and start talking</p>
+			<div class="app">
+				<div class="wrapper">
+					<div class="row">
+						<div class="col-md-3">
+							<input type="image" src="../../images/mic.svg" name="saveForm" id="switcher" value="Start" class="submit"></input>
+						</div>
+						<div class="col-md-1"><p id="status">Record</p></div>
+						<div class="col-md-3"></div>
+						<div class="col-md-1"><p class="Language-text">Language</p></div>
+			 			<div class="col-md-4 mob">
+							<select class="language" id="language">
+								<option value="HI">Hindi</option>
+								<option value="EN_DEFAULT">English</option>
+							</select>
+						</div>
+					</div>
+					<textarea id="notes" name="notes" class="notes" cols="80" rows="10"  value="" placeholder="Click on the microphone and start talking."></textarea>
+				</div>
+				<img src="../../images/page-1.svg" class="waveImage">
+			</div>
+		</div>
+		<div class="section2">
+			<H5 class="Want-to-know-how-our">Want to know how our pioneering technology enhances your life? Here are but a few
+
+of the many ways.</H5>
+			<H1 class="Use-cases">Use cases</H1>
+			<div id="myCarousel" class="myCarousel carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  	<ol class="carousel-indicators">
+			    	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    	<li data-target="#myCarousel" data-slide-to="1"></li>
+			    	<li data-target="#myCarousel" data-slide-to="2"></li>
+			    	<li data-target="#myCarousel" data-slide-to="3"></li>
+			  	</ol>
+
+			  <!-- Wrapper for slides -->
+			  	<div class="carousel-inner" role="listbox">
+			    	<div class="item active">
+				    	<div class="itemset">
+				      		<div class="row">
+				      			<div class="col-md-5">
+				      				<p class="Dont-just-listen-to">Don&#39;t just listen to your customers – understand them better! By converting calls to text,
+
+you can access a treasure trove of customer insights into every aspect of business, thus
+
+improving performance and enabling you to stay ahead of your competition.</p>
+				      			</div>
+				      			<div class="col-md-2">
+				      			</div>
+				      			<div class="col-md-5">
+				      				<img src="../../images/api-case-1.svg" style="width: 262px;height: 168px;"/>
+				      			</div>
+					      	</div>
+					    </div>
+				    </div>
+
+				    <div class="item">
+				    	<div class="itemset">
+					      	<div class="row">
+					      		<div class="col-md-5">
+					      			<p class="Dont-just-listen-to">Monitor your agents&#39; clarity and performance to help them and your business grow. Track
+
+keywords and phrases and keep an eye on conversations between them and customers.
+
+Get notifications about lapses and miscommunication and keep customers happy by quickly
+
+acting on any compliance breach.</p>
+					      		</div>
+					      		<div class="col-md-2">
+				      			</div>
+				      			<div class="col-md-5">
+				      				<img src="../../images/api-case-2.svg" style="width: 262px;height: 168px;"/>
+				      			</div>
+					      	</div>
+					    </div>
+				    </div>
+
+				    <div class="item">
+				    	<div class="itemset">
+					      	<div class="row">
+					      		<div class="col-md-5">
+					      			<p class="Dont-just-listen-to">Give your pitch that extra edge by never missing any relevant data. Search hours of audio
+
+for keywords and phrases to find out who said what and when. Boost your team’s morale
+
+with instant alerts about important follow-ups and meetings so that the deal never goes off
+
+the table.</p>
+					      		</div>
+					      		<div class="col-md-2">
+				      			</div>
+				      			<div class="col-md-5">
+				      				<img src="../../images/api-case-3.svg" style="width: 262px;height: 168px;"/>
+				      			</div>
+					      	</div>
+					    </div>
+				    </div>
+			  <!-- Left and right controls -->
+			  		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			    		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    		<span class="sr-only">Previous</span>
+			  		</a>
+			  		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			    		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    		<span class="sr-only">Next</span>
+			  		</a>
+				</div>
+			</div>
+		</div>
+		<div class="section3">
+			<div class="info4">
+				<h1 class="Explore-our-APIs-u">Discover our cutting edge tools!</h1>
+			</div>
+			<div class="info5">
+				<div class="row" style="margin-bottom: 50px">
+					<div class="col-md-4 mob1">
+						<div class="Rectangle-4">
+							<h2 class="Audio-to--text">Audio to text</h1>
+							<p class="The-API-supports-mul">Upload any audio file upto 10 MB and transcribe it with uncanny precision. Perfect to record
+
+conversations on the go! Supports both English and Hindi and formats like mp4, m4a, wav
+
+and flac..</p>
+						</div>
+					</div>
+					<div class="col-md-4 mob1">
+						<div class="Rectangle-4">
+							<h2 class="Audio-to--text">Spot keywords</h1>
+							<p class="The-API-supports-mul">Gain a new perspective into your data by quickly finding words and phrases in audio. Search
+
+for a word/phrase and instantly locate who said it and when!</p>
+						</div>
+					</div>
+					<div class="col-md-4 mob1">
+						<div class="Rectangle-4">
+							<h2 class="Audio-to--text">Sort audio files</h1>
+							<p class="The-API-supports-mul">Streamline your data storage and save precious hours looking for the relevant call. List
+
+upto 100 words to tag your audio, so that you can just search with the appropriate tag to find
+
+the right file!</p>
+						</div>
+					</div>
+				</div>
+				
+				<form class="email" action="../../php/email.php" method="post">
+					<input class="Rectangle-7" type="text" name="email" placeholder="       Leave us your email address"></input>
+					<button type="submit" class="Rectangle-7-Copy">Get Started</a>
+				</div>
+			</div>
+		</div>
+		<div class="section6">
+			<div class="info6">
+				<div class="row address">
+					<div class="col-md-12">
+						<h3 class="hellolivai"><img src="images/livai.png"/>&nbsp;&nbsp;&nbsp;&nbsp;<span class="span1" style="display:none;"></span><img src="images/location.svg"/>&nbsp;&nbsp;Old Airport Road, Bangalore&nbsp;&nbsp;<span class="span2" style="display:none;"></span><img src="images/email.svg"/>&nbsp;&nbsp;hello@liv.ai&nbsp;&nbsp;</h3>
+					</div>
+				</div>
+				<h4 class="Careers-Company">Careers  *  Company  *  App  *  APIs  *  Terms & Condition</h4>
+				<H4 class="copyright">&#169;2016 Liv.ai </H4>
+			</div>
+			<svg class="waveImage1" id="graph" width="100%" height="100px">
+				
+			</svg>
+		</div>
+		<script type="text/javascript"  src="app.js">
+		
+		</script>
+	</body>
+</html>

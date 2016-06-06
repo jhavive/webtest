@@ -2,7 +2,7 @@
 	require_once "../vendor/autoload.php";
 	$mail = new PHPMailer();
 	//Enable SMTP debugging. 
-	$mail->SMTPDebug = 3;                               
+	$mail->SMTPDebug = 0;                               
 	//Set PHPMailer to use SMTP.
 	$mail->isSMTP();            
 	//Set SMTP host name                          
@@ -29,7 +29,7 @@
 	$mail->addAddress($emailAddress); //Recipient name is optional
 
 	//Address to which recipient will reply
-	$mail->addReplyTo("vivekj@liv.ai", "Reply");
+	$mail->addReplyTo("contact@liv.ai", "Reply");
 
 	//CC and BCC
 	//Send HTML or Plain Text email
@@ -46,7 +46,7 @@
 	else 
 	{
 	    echo '<script type="text/javascript">
-           window.location = "../templates/thankyou/thankyou.html"
+           window.location = "../index.html"
      	</script>';
 	}
 ?>

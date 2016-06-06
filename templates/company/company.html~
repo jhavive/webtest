@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> </title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="../../styles/bootstrap.css" >
+		<!-- Latest compiled and minified JavaScript -->
+
+		<script src="../../js/jquery.min.js"></script>
+		<script src="../../js/bootstrap.js"></script>
+
+		<script type="text/javascript" src="../../js/jquery.fullPage.js"></script>
+		<link rel="stylesheet" type="text/css" href="../../styles/jquery.fullPage.css" />
+		<script type="text/javascript" src="app.js"></script>
+	</head>
+	<body>
+		<div class="section">
+			<div class="header_bg">
+				<nav class="navbar navbar-transparent">
+			  	<div class="container-fluid container-fluid-new ">
+			    	<div class="navbar-header">
+			     		<a class="navbar-brand navbar-brand-new" href="../../index.html">
+			     			<img src="../../images/livai-blue.png" class="Livai"/>
+			     		</a>
+			    	</div>
+			   		<ul class="nav navbar-nav navbar-right menu">
+			      		<!-- <li class="active"><a href="#">Apps</a></li> !-->
+			      		<li class="navbar_li"><a  class="name-of-app-a-p-i" href="../api/api.html">API</a></li>
+			      		<li class="navbar_li"><a  class="name-of-app-a-p-i" href="../company/company.html">Company</a></li>
+			      		<li ><button class="getStarted rectangle-2" data-toggle="modal" data-target="#myModal">Get Started</a></li> 
+				      		
+				    	</ul>
+				    	<div class="modal" id="myModal" role="dialog">
+						    <div class="modal-dialog">
+						    
+						      <!-- Modal content-->
+						      	<div class="modal-content">
+						          	
+							        <div class="modal-body">
+							        	<div class="custom-modal-header">
+							        		<button type="button" class="close" data-dismiss="modal" style="color: white; margin-right: 10px;">&times;</button>
+							        		<br>
+							        		<br>
+							        		<div class="modal-info">
+							          			<h4 class="Thank-you-for-your-i">Thank you for your interest in Liv.<br>
+							          			We&#8217;re excited to hear from you.</h4>
+							          		</div>
+							          		<img src="../../images/page-1.svg" class="waveImage">
+							          	</div>
+
+							          	<div class="modal-info1">
+							          		<h3 class="Please-leave-your-in"> Please leave your information and let us get back to you</h3>
+							          		<form class="form-get-started">
+							          			<input type="text" class="Rectangle-47" id="name" placeholder="Name">
+							          			<br>
+							          			<input type="text" class="Rectangle-47" id="email" placeholder="Email-Address">
+							          			<br>
+							          			<input type="text" class="Rectangle-47" id="phoneNumber" placeholder="Phone Number">
+							          			<br>
+													<button type="submit" class="Rectangle-8-copy">Submit</button>
+											</form>
+							          	</div>
+							        </div>	
+						      </div>
+						    </div>
+					    </div>
+				  	</div>
+				</nav>
+			</div>
+		</div>
+		<div class="Rectangle-46">
+			<div class="info1">
+				<h2 class="Start-a-conversation">Inspired by human empathy. Powered by artificial intelligence.</h2><br>
+				<p class="Imagine-a-world-wher">Liv.ai is a lively and imaginative team of highly skilled professionals committed to using Deep
+
+Learning to develop products that will, easily and efficiently, take over tasks that are routine,
+
+repetitive, mundane and time-consuming. Our futuristic products aim to ease the tedium of
+
+daily life and create a world where people are free to devote their energy to things that
+
+matter, where their minds are free to innovate and make a real difference.</p>
+
+			</div>
+		</div>
+		<div class="info2">
+			<h1 class="Were-strategists-d">Meet our dreamers, builders and developers</h1>
+			<div class="row founders">
+				<div class="col-md-3">
+					<div class="Rectangle-36">
+						<div class="info-founders">
+							<img src="../../images/liv-profile-subodh.png" class="Liv-profile-Subodh">
+							<h5 class="Sanjeev-Kumar-PhD">Subodh Kumar - Founder and CEO</h5><br>
+							<p class="Subodh-is-the-foundi">Subodh has donned multiple hats, from an engineer with Microsoft to being a quant trader,
+
+and an investment banker at Citigroup, blazing a trail across New York, Hong Kong and
+
+Singapore. He has a B.Tech (CSE) from IIT KGP and an MBA from IIM Bangalore.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+				<div class="col-md-3">
+					<div class="Rectangle-36">
+						<div class="info-founders">
+							<img src="../../images/liv-profile-sanjeev.png" class="Liv-profile-Subodh">
+							<h5 class="Sanjeev-Kumar-PhD">Sanjeev Kumar PhD</h5><br>
+							<p class="Subodh-is-the-foundi">Sanjeev has published more than 10 peer-reviewed papers in the field of Signal Processing
+
+and Machine Learning and has 7 granted/pending US patents. Before Liv, he was with
+
+startups Avaak Inc and Qualcomm Inc in San Diego, CA. He holds a MS and a PhD in
+
+electrical engineering from University of California, San Diego and a B.Tech from IIT KGP.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+				<div class="col-md-3">
+					<div class="Rectangle-36">
+						<div class="info-founders">
+							<img src="../../images/liv-profile-kishore.png" class="Liv-profile-Subodh">
+							<h5 class="Sanjeev-Kumar-PhD">Kishore Mundra</h5><br>
+							<p class="Subodh-is-the-foundi">With more than 10 years of experience in software product development, Kishore holds
+
+multiple patents as a researcher with Samsung, India, and has helped Beceem Comm
+
+develop 4G solutions (acquired by Broadcom in 2011). A seasoned leader and manager,
+
+Kishore has a B.Tech &amp; M.Tech in Computer Science from IIT KGP.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <button class="Rectangle-8">Join Us
+			</button> -->
+		</div>
+		<br><br><br>
+		<div class="section6">
+			<div class="row info6" style="margin-bottom: 50px">
+				<h3 class="hellolivai"><img src="../../images/livai.png"/>&nbsp;&nbsp;&nbsp;&nbsp;<span class="span1" style="display:none;"></span><img src="../../images/location.svg"/>&nbsp;&nbsp;Old Airport Road, Bangalore&nbsp;&nbsp;<span class="span2" style="display:none;"></span><img src="../../images/email.svg"/>&nbsp;&nbsp;hello@liv.ai&nbsp;&nbsp;</h3>
+
+				<h4 class="Careers-Company">Careers  *  Company  *  App  *  APIs</h4>
+				<p class="016-Livai"> ©2016 Liv.ai </p>
+			</div>
+			<svg class="waveImage1" id="graph" width="100%" height="100px">
+				
+			</svg>
+		</div>
+	</body>
+</html>

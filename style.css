@@ -127,7 +127,7 @@
   border: solid 1px var(--silver);
 }
 .header_bg {
-  width: 100.5%;
+  width: 100%;
   height: 630px;  
   background:linear-gradient(to bottom, #18306d, #5ed7fe);
   padding-bottom: 10%;
@@ -652,3 +652,257 @@ ul#waves li {
   color: #f6f6f6 !important;
 
 }
+@media only screen and (max-width: 500px) {
+body{
+	width:100%;
+}
+.nav.navbar-nav.navbar-right.menu{
+display:none;
+}
+a .Livai{
+	width:50px;
+	height:18.2px;
+	margin-left:29px;
+	margin-top:28px;
+}
+.nav.navbar-nav.navbar-right.menu{
+	visibility:hidden;
+	height:10%;	
+}
+.navbar{
+min-height:20px;
+}
+.Supercharge-your-eff {
+position:relative;
+height:auto;
+margin-top:20px;
+width:70%;
+text-align:center;
+}
+.navbar{
+margin:0;
+}
+nav.navbar.navbar-transparent{
+	height:10%;
+}
+.info1{
+	margin-top:10%;
+	position:relative;
+	height:50%;
+}
+.only{
+	visibility:hidden;
+}
+.Available-in-English{
+width:80%;
+margin-top:0px;
+}
+.the-smartest-persona{
+width:70%;
+height:auto;
+margin-top:0px;
+}
+p.the-smartest-persona{
+margin:0px auto 0px auto;
+}
+.header_bg{
+width:100%;
+height:480px;
+}
+
+.Rectangle-3{
+display:none;
+}
+.Rectangle-3-copy{
+margin-top:20px;
+border-radius:2em;
+}
+.email{
+	margin-top:0px;
+}
+.What-can-Liv-do-for{
+	margin-top:39px;
+	margin-bottom:22px;
+	margin-left:7% !important;
+	height:88px;
+}
+.section2{
+	margin-top:0px;
+	margin-left:10% !important;
+}
+.Transcribe-your-conv{
+	height:31px;
+	width:290px;
+	margin:22px auto 6px 1%;
+	font-size:21px;
+}
+.section1-image1{
+	width:100% !important;
+	height:auto !important;
+	max-width:100%;
+	display:block;
+	margin-bottom:0px;
+}
+.section1-image2{
+	width:100% !important;
+	height:auto !important;
+	max-width:100%;
+	display:block;
+	margin-bottom:0px;
+}
+.Liv-will-transcribe{
+	padding-left:2%;
+	height:auto;
+	margin-bottom:0px;
+}
+.Rectangle-3-Copy1 {
+  display:block !important;
+  width: 240px;
+  height: 44px;
+  z-index: -1px;
+  background-color:#ffffff;
+  font-family: FiraSans-Medium;
+  border: 0; 
+  text-align: center;
+  margin-left:auto;
+  margin-top:12%;
+  border-radius: 2em;
+  border:solid 1px #3f8ebf;
+  color: #3f8ebf;
+  /*background-color: var(--navy);*/
+}
+.Rectangle-3-Copy{
+	margin-left:0px !important;
+}
+.Rectangle-3-Copy2 {
+  display:block !important;
+  width: 240px !important;
+  height: 44px!important;
+  z-index: -1px;
+  background-color:#ffffff;
+  font-family: FiraSans-Medium;
+  border: 0; 
+  text-align: center;
+  margin-left:0px;
+  margin-right:auto;
+  margin-top:12%;
+  border-radius: 2em;
+  border:solid 1px #3f8ebf;
+  color: #3f8ebf;
+  /*background-color: var(--navy);*/
+}
+
+table, thead, tbody, th, td, tr { 
+		display: block; 
+		padding-right:0px !important;
+	}
+tr{
+	margin-bottom:25%;
+}
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	
+	td { 
+		border: none;	
+		position: relative;
+		width:120%;
+	}
+	
+	td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		white-space: nowrap;
+	}
+.section2{
+margin-bottom:0px;
+}
+.only{
+	display:none;
+}
+.disp{
+	display:block !important;
+}
+.col-sm-4{
+	display:none;
+}
+.Members-only-Android{
+	margin-top:20%;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	text-align:center;
+}
+.Rectangle-8.btn.btn-info.btn-lg.Register_access{
+	margin-left:auto !important;
+	margin-right:auto !important;
+}
+.phone-image{
+	margin-left:auto !important;
+	margin-right:auto !important;
+	margin-top:20%;
+}
+.section3{
+	height:120%;
+	width:100%;
+}
+.section{
+	width:100%;
+}
+.Explore-the-APIs-an{
+	height:auto;
+	margin-top:39%;
+}
+col-md-6.only{
+	display:none;
+}
+.disp1{
+	display:block !important;
+}
+.hellolivai{
+	height:auto;
+}
+.Careers-Company{
+	height:auto;
+}
+.span1{
+	display:block !important;
+margin-top:15%;
+}
+
+.info6{
+width:80%;
+}
+.span2{
+	display:block !important;
+	margin-top:5%;
+}
+.span3{
+	display:none !important;
+}
+.beta{
+	display:none;
+}
+p.betamob{
+  display:block !important;
+  width: 48px;
+  height: auto; 
+  position: relative; 	
+  font-family: FiraSans-Regular;
+  font-size: 14px;
+  text-align: center;
+  color: #f6f6f6;
+  border: solid 1px #f1bbbb;
+  border-radius: 4px;
+  margin: 0 auto !important;
+
+}
+td{
+	margin-top:10px;
+}
+}
+

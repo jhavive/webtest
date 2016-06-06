@@ -1,0 +1,876 @@
+@font-face {
+  font-family: 'FiraSans-Regular';
+  src: url('fonts/FiraSans-Regular.eot');
+  src: url('fonts/FiraSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FiraSans-Regular.woff') format('woff'),
+    url('fonts/FiraSans-Regular.ttf') format('truetype'),
+    url('fonts/FiraSans-Regular.svg#FiraSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FiraSans-Book';
+  src: url('fonts/FiraSans-Book.eot');
+  src: url('fonts/FiraSans-Book.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FiraSans-Book.woff') format('woff'),
+    url('fonts/FiraSans-Book.ttf') format('truetype'),
+    url('fonts/FiraSans-Book.svg#FiraSans-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FiraSans-Light';
+  src: url('fonts/FiraSans-Light.eot');
+  src: url('fonts/FiraSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FiraSans-Light.woff') format('woff'),
+    url('fonts/FiraSans-Light.ttf') format('truetype'),
+    url('fonts/FiraSans-Light.svg#FiraSans-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FiraSans-Medium';
+  src: url('fonts/FiraSans-Medium.eot');
+  src: url('fonts/FiraSans-Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FiraSans-Medium.woff') format('woff'),
+    url('fonts/FiraSans-Medium.ttf') format('truetype'),
+    url('fonts/FiraSans-Medium.svg#FiraSans-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fadeMe {
+  width:      100%;
+  height:     100%; 
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
+}
+.modal-backdrop {
+   background-color: #fff !important;
+}
+.modal-content{
+  margin-top: 10% !important;
+}
+.modal-body{
+  width: 100%;
+  height:75%;
+  z-index: 99;
+  position: fixed;
+  padding: 0 !important;
+}
+.custom-modal-header{
+  width:      100%;
+  margin: 0 !important;
+  height:25%;
+
+  z-index: 99;
+  position: fixed;
+  background-image: linear-gradient(to bottom, #18306d, #5ed7fe) !important;
+  position: fixed;
+}
+.waveImage{
+  width: 100%;
+  position: absolute;
+  bottom:0px;
+}
+.modal-info {
+  width:100%;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  text-align: center;
+}
+.modal-info1 {
+  width:100%;
+  height: 100%;
+  padding-top:20%; 
+  position: fixed;
+  text-align: center;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  background-image: linear-gradient(to bottom, #f6f6f6, #f6f6f6) !important;
+}
+.form-get-started{
+
+}
+.Thank-you-for-your-i {
+  width: 100%;
+  font-family: FiraSans-Light;
+  font-size: 24px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  color: #d2dfdd;
+}
+.Please-leave-your-in {
+  width: 419px;
+  height: 19px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  color: #9ea8ac;
+  color: var(--grey1);
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.Rectangle-47 {
+  width: 425px;
+  height: 52px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 12px;
+  background-color: #ffffff;
+  border: solid 1px #d2dfdd;
+  border: solid 1px var(--silver);
+}
+.header_bg {
+  width: 100%;
+  height: 630px;  
+  background:linear-gradient(to bottom, #18306d, #5ed7fe);
+  padding-bottom: 10%;
+}
+.info1{
+  vertical-align: middle;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.Livai {
+  width: 59.7px;
+  height: 21.8px;
+  object-fit: contain;
+  margin-left: 166px;
+  background-color: #d2dfdd;
+  background-color: var(--blue-grey);
+}
+.Name-of-App-API {
+  width: 243px;
+  height: 19px;
+  opacity: 0.8;
+  font-family: FiraSans-Book;
+  font-size: 16px;
+  color: #ffffff;
+  color: var(--white);
+}
+.Rectangle-2 {
+  width: 108px;
+  height: 38px;
+  /*opacity: 0.3;*/
+  border-radius: 21px;
+  background-color: #d8d8d8;
+  background-color: var(--grey4);
+}
+.Supercharge-your-eff {
+  margin-top: 103px;
+  height: 44px;
+  font-family: FiraSans-Light;
+  font-size: 36px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #d2dfdd;/*
+  color: var(--blue-grey);*/
+}
+.navbar{
+  background: transparent;
+
+}
+.menu{
+  margin-right: 161px !important;
+}
+.getStarted {
+  width: 108px !important;
+  height: 38px !important;
+  border: 0 !important;
+  border-radius: 21px !important;
+  background-color: #495f8c !important;
+  font-size: 12 !important;
+  color: #ffffff;
+  /*background-color: var(--grey4);*/
+}
+.Beta {
+  width: 29px;
+  height: 17px;
+  vertical-align: top; 
+  position: relative; 
+  top: 0.15em;
+  font-family: FiraSans-Regular;
+  font-size: 14px;
+  text-align: center;
+  color: #f6f6f6;
+  color: var(--grey2);
+  border: solid 1px #f1bbbb;
+  border-radius: 4px;
+  padding: 1px 8px;
+  margin-left: 10px;
+
+}
+.The-smartest-persona {
+  width: auto;
+  height: 19px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  position: relative; 
+  margin-top: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  /*color: var(--white);*/
+}
+.Available-in-English {
+  width: 419px;
+  height: 19px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  position: relative; 
+  margin-top:-14px;
+  margin-left: auto;
+  margin-right: auto;
+  /*color: var(--white);*/
+}
+.email{
+  margin-top: 73px;
+  position: relative;
+  width:40%;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  margin-bottom: 10%! important;
+}
+.Rectangle-3 {
+  width:100%;
+  height: 49px;
+  z-index: 99px;
+  border: 0;
+  background-color: #f6f6f6;
+  margin-left: 10%;
+  text-align: center;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 2em;
+  /*background-color: var(--grey2);*/
+}
+.Rectangle-3-Copy {
+  width: 100%;
+  height: 49px;
+  z-index: -1px;
+  background-color: #234663;
+  border: 0; 
+  text-align: center;
+  margin-left:-10%;
+  border-top-right-radius: 2em;
+  border-bottom-right-radius: 2em;
+  color: #f6f6f6;
+  /*background-color: var(--navy);*/
+}
+/*.waves{*/
+  /*height: 100px;
+  isplay: table;
+  width: 100%;
+  list-style: outside none none;*/
+ /* content: " ";
+  display: table;
+  box-sizing: border-box;
+  clear: both;
+  content: " ";
+  display: table;
+  box-sizing: border-box;
+  margin: 0;
+  margin: 7.5px -15px;
+  list-style: outside none none;
+  margin-bottom: 0;
+  padding-left: 0;
+  margin-right: 174px !important;
+  margin-bottom: 10px;
+  margin-top: 0;
+  box-sizing: border-box;
+}*/
+/*.wave{
+   background: #E20074;
+    bottom: 1px;
+    height: 3px;
+    position: absolute;
+    width: 3px;      
+    animation: sound 0ms -800ms linear infinite alternate;
+}
+@keyframes sound {
+    0% {
+       opacity: .35;
+        height: 3px; 
+    }
+    100% {
+        opacity: 1;       
+        height: 28px;        
+    }
+}*/
+ul#waves {
+    padding: 0;
+    position: absolute !important;
+}
+
+ul#waves li {
+    display: inline;
+    
+}
+
+.waves
+{
+  position: absolute;
+}
+
+/*==========Second Section==============*/
+.section2 {
+  width: 70%;
+  padding-bottom: 10%;
+  background:#ffffff;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  margin-top: 82px;
+  margin-bottom: 10%;
+}
+.What-can-Liv-do-for {
+  text-align: center;
+
+  margin-right: auto !important;
+  margin-left: auto !important;
+  margin-bottom: 119px;
+  width:100%;
+  height: 44px;
+  font-family: FiraSans-Light;
+  font-size: 36px;
+  text-align: center;
+  color: #3f8ebf;
+}
+.infoTable{
+  width:100%;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.section1-image1{
+  width: 316px;
+  height: 148px;
+  margin-bottom: 19vh;
+}
+.section1-image2{
+  width: 358px !important;
+  height: 110px;
+  margin-top: 10%;
+  margin-bottom: 19vh;
+  width:100%;
+}
+.section1-image3{
+  width: 90px;
+  height: 54px;
+}
+
+
+.Transcribe-your-conv {
+  width: 290px;
+  font-family: FiraSans-Medium;
+  font-size: 18px;
+  color: #3f8ebf;
+}
+.Liv-will-transcribe {
+  width:100%;
+  height: 105px;
+  margin-bottom: 15vh;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #727272;
+  color: var(--grey3);
+}
+.Rectangle-4 {
+  width: 395px;
+  height: 184px;
+  background-color: #d8d8d8;
+  /*background-color: var(--grey4);*/
+}
+.Livs-unique-audio-s {
+  height: 84px;
+  width:100%;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #727272;
+}
+.Search-your-audio {
+  width: 100%;
+  height: 31px;
+  font-family: FiraSans-Medium;
+  font-size: 21px;
+  color: #3f8ebf;
+}
+.Summarise-your-calls {
+  width: 205px;
+  font-family: FiraSans-Medium;
+  font-size: 21px;
+  color: #3f8ebf;
+}
+.Liv-summarises-your {
+  width:100%;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #727272;
+}
+.Set-reminders-and-al {
+  width: 100%;
+  height: 31px;
+  font-family: FiraSans-Medium;
+  font-size: 21px;
+  color: #3f8ebf;
+}
+.Liv-reminds-you-abou {
+  width:100%;
+  height: 84px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #727272;
+}
+.Extract-important-in {
+  width: 105%;
+  height: 31px;
+  font-family: FiraSans-Medium;
+  font-size: 21px;
+  color: #3f8ebf;
+}
+.Liv-easily-recognise {
+  width:100%;
+  height: 84px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #727272;
+}
+
+/*=========Third Section=============*/
+.section3 {
+  width: 100%;
+  height: 709px;
+  background-image: linear-gradient(to bottom, #fdf1fa, #6c96bc);
+  position:relative;
+}
+.info3{
+  width: 70%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.Members-only-Android {
+  width: 100%;  font-family: FiraSans-Light;
+  font-size: 36px;
+  text-align: left;
+  color: #3f8ebf;
+  margin-top:45%;
+  margin-bottom: 20px;
+}
+.phone-image{
+  margin-left: 100px;
+  margin-top: 30%;
+  height: 612px;
+  width:303px;
+}
+.Rectangle-8 {
+  width: 240px !important;
+  height: 44px!important;
+  border-radius: 21px!important;
+  background-color: #3f8ebf!important;
+  color: #fff!important;
+  /*background-color: var(--blue);*/
+  margin-top:1%!important;
+  border: solid 1px #3f8ebf!important;
+  border: solid 1px var(--blue)!important;
+  margin-right: auto!important;
+  margin-left: auto!important;
+
+}
+.Rectangle-8-copy{
+  width: 240px;
+  height: 44px;
+  border-radius: 21px;
+  background: transparent;
+  color: #3f8ebf;
+  /*background-color: var(--blue);*/
+  margin-top:5%;
+  border: solid 1px #3f8ebf;
+  margin-right: auto!important;
+  margin-left: auto!important;
+}
+
+
+
+
+
+
+
+
+.section4 {
+  margin-top: 10%;
+  background:#fff;
+  text-align: center;
+}
+.Explore-the-APIs-an {
+  height: 44px;
+  font-family: FiraSans-Light;
+  font-size: 36px;
+  text-align: center;
+  color: #3f8ebf;
+}
+.waveImage1{
+  background-color: #3f8ebf;
+  background-color: var(--blue);
+}
+.copyright{
+  margin-top: 5%;
+  width: auto;
+  height: 21px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #727272;
+}
+.info6{
+  width:60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.Livai1{
+  height: 56.8px;
+  object-fit: contain;
+  align: right;
+  padding:10%;
+  background-color: #d2dfdd;
+  background-color: var(--blue-grey);
+}
+.address{
+  margin-top: 10%;
+}
+.Old-Airport-Road-Ba {
+  height: 19px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  color: #9ea8ac;
+}
+.hellolivai {
+  height: 19px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  color: #9ea8ac;
+}
+.Careers-Company {
+  margin-top: 5%;
+  width: auto;
+  height: 29px;
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #bcbcbc;
+}
+
+.navbar-brand-new{
+  padding:15px 0px !important;
+}
+
+.container-fluid-new{
+  padding-right:7px !important;
+  margin-top:23px !important;
+}
+
+
+.name-of-app-a-p-i {
+  height: 19px;
+  opacity: 0.8 !important;
+  font-family: FiraSans-Book !important; 
+  font-size: 16px !important;
+  color: #ffffff !important;
+  bottom: 5px !important;
+  padding: 15px 25px !important;
+  margin-left: -25px;
+  margin-right: 10px;
+}
+.name-of-app-a-p-i:hover {
+  height: 19px;
+  /*opacity: 0.8 !important;*/
+  font-family: FiraSans-Book !important; 
+  font-size: 16px !important;
+  color: #3f8ebf !important;
+  bottom: 5px !important;
+  padding: 15px 25px !important;
+  background-color: transparent !important;
+}
+.rectangle-2 {
+  width: 108px;
+  height: 38px;
+  border-radius: 21px;
+  background-color: rgba(216,216,216,0.3) !important;
+  border: 0px;
+}
+.get-started {
+  width: 95px;
+  height: 19px;
+  font-family: FiraSans-Book !important;
+  font-size: 16px !important;
+  color: rgba(255,255,255,0.8)  !important;
+  margin: 0px !important;
+}
+
+.navbar_li{
+  float:right;
+}
+
+.navbar_container{
+  margin: 23px 161px 0px 166px !important;
+}
+
+.h1_container{
+  margin-top: 75px;
+}
+
+.section1_img{
+  background-image: linear-gradient(to bottom, rgba(48, 5, 71, 0.7), rgba(94, 214, 254, 0));
+}
+
+.section2_h1_container{
+  margin-top: 96px;
+}
+
+.navbar-header-new{
+  margin-left: -30px !important;
+}
+
+.navbar-brand-new{
+  padding: 9px 0px !important;
+}
+
+.Register_access{
+  font-family: FiraSans-Medium !important;
+  font-size: 14px !important;
+  color: #f6f6f6 !important;
+
+}
+@media only screen and (max-width: 500px) {
+body{
+	width:100%;
+}
+.nav.navbar-nav.navbar-right.menu{
+display:none;
+}
+a .Livai{
+	width:50px;
+	height:18.2px;
+	margin-left:29px;
+	margin-top:28px;
+}
+.nav.navbar-nav.navbar-right.menu{
+	visibility:hidden;
+	height:10%;	
+}
+.navbar{
+min-height:20px;
+}
+.Supercharge-your-eff {
+position:relative;
+height:auto;
+margin-top:20px;
+width:80%;
+text-align:center;
+}
+.navbar{
+margin:0;
+}
+nav.navbar.navbar-transparent{
+	height:10%;
+}
+.info1{
+	margin-top:10px;
+	position:relative;
+	height:50%;
+}
+.only{
+	visibility:hidden;
+}
+.Available-in-English{
+width:80%;
+margin-top:0.5%;
+}
+.the-smartest-persona{
+width:70%;
+height:auto;
+}
+.header_bg{
+width:100%;
+height:480px;
+}
+.Rectangle-3{
+display:none;
+}
+.Rectangle-3-copy{
+margin-top:40px;
+border-radius:2em;
+}
+.email{
+	margin-top:0px;
+}
+.What-can-Liv-do-for{
+	margin-top:39px;
+	margin-bottom:22px;
+	margin-left:7% !important;
+	height:88px;
+}
+.section2{
+	margin-top:0px;
+	margin-left:10% !important;
+}
+.Transcribe-your-conv{
+	height:31px;
+	width:290px;
+	margin:22px auto 6px 1%;
+	font-size:21px;
+}
+.section1-image1{
+	width:100% !important;
+	height:auto !important;
+	max-width:100%;
+	display:block;
+	margin-bottom:0px;
+}
+.section1-image2{
+	width:100% !important;
+	height:auto !important;
+	max-width:100%;
+	display:block;
+	margin-bottom:0px;
+}
+.Liv-will-transcribe{
+	padding-left:2%;
+	height:auto;
+	margin-bottom:0px;
+}
+.Rectangle-3-Copy1 {
+  display:block !important;
+  width: 240px;
+  height: 44px;
+  z-index: -1px;
+  background-color:#ffffff;
+  font-family: FiraSans-Medium;
+  border: 0; 
+  text-align: center;
+  margin-left:auto;
+  margin-top:12%;
+  border-radius: 2em;
+  border:solid 1px #3f8ebf;
+  color: #3f8ebf;
+  /*background-color: var(--navy);*/
+}
+.Rectangle-3-Copy2 {
+  display:block !important;
+  width: 240px !important;
+  height: 44px!important;
+  z-index: -1px;
+  background-color:#ffffff;
+  font-family: FiraSans-Medium;
+  border: 0; 
+  text-align: center;
+  margin-left:0px;
+  margin-right:auto;
+  margin-top:12%;
+  border-radius: 2em;
+  border:solid 1px #3f8ebf;
+  color: #3f8ebf;
+  /*background-color: var(--navy);*/
+}
+
+table, thead, tbody, th, td, tr { 
+		display: block; 
+		padding-right:0px !important;
+	}
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	
+	td { 
+		border: none;	
+		position: relative;
+		width:120%;
+	}
+	
+	td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		white-space: nowrap;
+	}
+.section2{
+margin-bottom:0px;
+}
+.only{
+	display:none;
+}
+.disp{
+	display:block !important;
+}
+.col-sm-4{
+	display:none;
+}
+.Members-only-Android{
+	margin-top:20%;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	text-align:center;
+}
+.Rectangle-8.btn.btn-info.btn-lg.Register_access{
+	margin-left:auto !important;
+	margin-right:auto !important;
+}
+.phone-image{
+	margin-left:auto !important;
+	margin-right:auto !important;
+	margin-top:20%;
+}
+.section3{
+	height:130%;
+	width:100%;
+}
+.section{
+	width:100%;
+}
+.Explore-the-APIs-an{
+	height:auto;
+	margin-top:39%;
+}
+col-md-6.only{
+	display:none;
+}
+.disp1{
+	display:block !important;
+}
+.hellolivai{
+	height:auto;
+}
+.Careers-Company{
+	height:auto;
+}
+.span1{
+	display:block !important;
+margin-top:15%;
+}
+.info6{
+width:80%;
+}
+.span2{
+	display:block !important;
+	margin-top:5%;
+}
+.span3{
+	display:none !important;
+}
+}
+
